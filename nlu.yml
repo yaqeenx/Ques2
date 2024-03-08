@@ -215,7 +215,9 @@ nlu:
     - What kind of courses will I take as a computer engineering student?
     - Are there any clubs or organizations specifically for computer engineering students?
     - Are there any networking events or career fairs specifically for computer engineering students? 
-#18
+#18!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+##################################################################
+#####################################################!!!!!!!!!!!!!!!
 - intent: electrical_engineering
   examples: |
     - What kind of courses will I take in an electrical engineering program?
