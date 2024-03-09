@@ -426,3 +426,32 @@ nlu:
     - Where should I go if I've lost something on campus?
     - What information should I provide when reporting a lost item?
     - What should I do if I find a lost item on campus?
+#41
+- intent: inquire_advising_services
+  examples: |
+    - What services does the advising office offer?
+    - Can you tell me about the advising services available?
+    - What kind of assistance can I get from the advising office?
+#42
+- intent: schedule_advising_appointment
+  examples: |
+    - How can I schedule an appointment with my advisor?
+    - What is the process to book an advising appointment?
+    - Can you help me set up a meeting with an advisor?
+#43
+- intent: inquire_advising_hours
+  examples: |
+    - When is the advising office open?
+    - What are the office hours for the advising department?
+    - What time can I visit the advising office?
+#44
+- intent: reset_password
+  examples: |
+    - How do I reset my password if I've forgotten it?
+    - What should I do if I don't receive the password reset email or SMS?
+#45
+- intent: library_code_of_conduct
+  examples: |
+    - What are the rules and guidelines for behavior in the library?
+    - Are there any particular guidelines I need to follow when using the library?
+    - What are the library's policies?
