@@ -49,7 +49,11 @@ intents:
   - attendance_dismissal_request
   - medical_examination_submission
   - lost_item_on_campus
-
+  - inquire_advising_services
+  - schedule_advising_appointment
+  - inquire_advising_hours
+  - reset_passwor
+  - library_code_of_conduct
 
 
 
@@ -197,7 +201,7 @@ responses:
   - text: "AUM provides students with easy access to computers and various online platforms such as the AUM website, MyAUM Portal, AUM email, Moodle system for Learning Management, Banner system for Student Information, AUM Soft Skills E-courses platform, AUM Mobile app, and E-portfolio."
   
 
-  utter_aum_website_info:
+  utter_aum_website:
   - text: "The AUM website provides general information about the University, its programs, courses, activities, and events. It also allows students to access the MyAUM portal, which includes the Moodle Learning Management System. This is the AUM website if you need it https://www.aum.edu.kw/english/home "
 
   utter_portal_purpose:
@@ -239,13 +243,13 @@ responses:
   - text: "Students can typically request accommodations for religious observances or other personal obligations through the university's office of student affairs"
   - text: "The university calendar may take into account important dates or events in the local community, such as public holidays or local festivals"
 
-  utter_subject_info:
+  utter_AUM_subject:
   - text: "At AUM, we offer a wide range of subjects across various academic disciplines. Some of the subjects you can study include Computer Science, Engineering, Business Administration, Architecture, and more"
 
   utter_grading_system:
   - text: "At our university, the grading system typically follows a scale of letter grades (e.g., A, B, C, D, F) with corresponding grade point values. The GPA (Grade Point Average) is calculated based on the grades earned in individual courses and the credit hours associated with each course. GPA requirements may vary depending on the program of study and academic policies"
 
-  utter_elearning_info:
+  utter_elearning:
   - text: "Here are some answers to your questions:
       1. To get started, you can enroll in a course by visiting our website and selecting the course you're interested in.
       2. You can take multiple courses at one time, but we recommend focusing on one or two at a time to ensure you can manage your workload effectively.
@@ -253,7 +257,7 @@ responses:
       4. The score needed to complete a course varies depending on the course requirements. You'll typically need to achieve a passing score on assignments and exams.
       5. You may have the option to retake tests to improve your score, but the number of times you can retake it may depend on the course. Please check the course details for specific information."
 
-  utter_campus_facilities_info:
+  utter_campus_facilities:
   - text: "Here are some details about campus facilities:
       1. Dining options: We have multiple dining halls and food outlets offering a variety of cuisines.
       2. Fitness center: Our gym is located in [sport center], and it offers various equipment and classes.
@@ -263,7 +267,7 @@ responses:
       6. Parking facilities: Information about parking permits and locations can be found [gate E, F,C].
       7. Study rooms and collaboration spaces: Study rooms and group spaces are available in the Librray building." 
 
-  utter_business_major_info:
+  utter_business_major:
   - text: "Of course! Here's some information about the business major:
       1. Core courses: The core courses for the business major typically include subjects such as accounting, finance, marketing, management, and business ethics.
       2. Faculty: Our business department is staffed with experienced faculty members who specialize in various areas of business, including finance, marketing, management, and entrepreneurship.
@@ -274,7 +278,7 @@ responses:
       7. Alumni network: Our business alumni network provides resources and networking opportunities for current students and graduates.
       8. Research projects: Students can get involved in business-related research projects through opportunities offered by faculty members or research centers."
 
-  utter_attendance_dismissal_request_info:
+  utter_attendance_dismissal_request:
    - text: "Sure! Here's some information about attendance dismissal requests:
       1. Submission process: Attendance dismissal requests can typically be submitted through the university's student portal or by contacting the student affairs
       2. Requirements: generally, valid reasons for dismissal include medical emergencies, family emergencies, or other extenuating circumstances.
@@ -283,7 +287,7 @@ responses:
       5. Supporting Documents: You may be asked to provide supporting documents, such as medical documents or a letter explaining the circumstances.
       6. Notification: You will be notified of the status of your in-person class request through email or the student portal."
 
-  utter_medical_examination_submission_info:
+  utter_medical_examination_submission:
    - text: "Sure! Here's some information about submitting medical examination results to the university:
       1. Submission process: You can usually submit your medical examination results to the university health center or the designated office responsible for student health services.
       2. Submission deadline: It's important to submit your medical examination within the specified deadline, which may vary depending on the university's policies.
@@ -293,12 +297,28 @@ responses:
       6. Confirmation of receipt: To ensure that the university receives your medical examination results, you can follow up with the designated office or check the status of your submission through the student portal.
       7. Uploading to student portal: Some universities allow students to upload their medical examination results directly to the student portal for easy access and record-keeping."
   
-  utter_lost_item_on_campus_info:
+  utter_lost_item_on_campus:
    - text: "Sure! Here's some information about lost items on campus:
       1. Reporting a lost item: If you've lost something on campus, you can report it to student affairs or security department.
       2. Lost and found office: The university typically has a designated lost and found office or department where lost items are collected and stored.
       3. Reporting process: When reporting a lost item, provide as much detail as possible about the item, including its description, when and where it was lost, and any identifying features.
       4. Finding a lost item: If you find a lost item on campus, you can turn it in to the lost and found office or security department."
+
+  utter_advising_services:
+   - text: "At AUM, our advising services include academic guidance, course selection assistance, and career counseling."
+
+  utter_schedule_advising_appointment:
+   - text: "To schedule an advising appointment, you can visit our online booking system or contact our advising office directly."
+
+  utter_advising_hours:
+   - text: "Our advising office is open from [8am to 5pm]. You can visit during these hours for assistance."
+
+  utter_reset_passwor:
+   - text: "To reset your forgotten password, navigate to the login page and look for the Forgot Password link. Click on it, and follow the prompts to reset your password."
+   - text: "if you do not receive a password reset email or SMS, check your mail folder or contact support for assistance."
+
+  utter_library_code_of_conduct:
+   - text: "The library strives to provide an environment conducive to study and research, and therefore all visitors to the library are asked to adhere to several rules in order to maintain safety, including maintaining calm, setting phones on silent, not leaving personal items unattended, and not bringing food and drinks into the library."
 
 
 sesion_config:

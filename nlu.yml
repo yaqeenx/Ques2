@@ -261,7 +261,7 @@ nlu:
     - What are the available IT support services catered to students of AUM?
     - What IT resources and assistance are provided for students at AUM?
 #23  
-- intent: aum_website_info
+- intent: aum_website
   examples: |
     - What information does the AUM website provide to students?
     - What kind of information does the AUM website offer to its students?

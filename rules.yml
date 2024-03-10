@@ -166,49 +166,73 @@ rules:
   - intent: AUM_calendar
   - action: utter_AUM_calendar
 
-rules:
-  - rule: Respond to AUM_subject
-    steps:
-      - intent: AUM_subject
-      - action: utter_subject_info
- 
-rules:
-  - rule: Respond to question about grading system
-    steps:
-      - intent: ask_grading_system
-      - action: utter_grading_system
 
-rules:
-  - rule: Respond to Ask_about_elearning 
-    steps:
-      - intent: Ask_about_elearning
-      - action: utter_elearning_info
+- rule: Respond to AUM subject
+  steps:
+  - intent: AUM_subject
+  - action: utter_AUM_subject
 
-rules:
-  - rule: Respond to Ask_about_campus_facilities 
-      - intent: Ask_about_campus_facilities
-      - action: utter_campus_facilities_info
 
-rules:
-  - rule: Respond to Ask_about_business_major
-    steps:
-      - intent: Ask_about_business_major
-      - action: utter_business_major_info
+- rule: Respond to question about grading system
+  steps:
+  - intent: ask_grading_system
+  - action: utter_grading_system
 
-rules:
-  - rule: Respond to Ask_about_attendance_dismissal_request
-    steps:
-      - intent: Ask_about_attendance_dismissal_request
-      - action: utter_attendance_dismissal_request_info
 
-rules:
-  - rule: Respond to Ask_about_medical_examination_submission
-    steps:
-      - intent: Ask_about_medical_examination_submission
-      - action: utter_medical_examination_submission_info
+- rule: Respond to Ask about elearning 
+  steps:
+  - intent: Ask_about_elearning
+  - action: utter_elearning
 
-rules:
-  - rule: Respond to Ask_about_lost_item_on_campus intent
-    steps:
-      - intent: Ask_about_lost_item_on_campus
-      - action: utter_lost_item_on_campus_info
+
+- rule: Respond to Ask about campus facilities 
+  steps:
+  - intent: Ask_about_campus_facilities
+  - action: utter_campus_facilities
+
+
+- rule: Respond to Ask about business major
+  steps:
+  - intent: Ask_about_business_major
+  - action: utter_business_major
+
+- rule: Respond to Ask about attendance dismissal request
+  steps:
+  - intent: Ask_about_attendance_dismissal_request
+  - action: utter_attendance_dismissal_request
+
+
+- rule: Respond to Ask_about_medical_examination_submission
+  steps:
+  - intent: Ask_about_medical_examination_submission
+  - action: utter_medical_examination_submission
+
+- rule: Respond to Ask about lost item on campus 
+  steps:
+  - intent: Ask_about_lost_item_on_campus
+  - action: utter_lost_item_on_campus
+
+- rule: Respond to advising services inquiry
+  steps:
+  - intent: inquire_advising_services
+  - action: utter_advising_services
+
+- rule: Schedule advising appointment
+  steps:
+  - intent: schedule_advising_appointment
+  - action: utter_schedule_advising_appointment
+
+- rule: Provide advising office hours
+  steps:
+  - intent: inquire_advising_hours
+  - action: utter_advising_hours
+
+- rule: reset_password
+  steps:
+  - intent: reset_password
+  - action: utter_reset_password
+
+- rule: library_code_of_conduct
+  steps:
+  - intent: library_code_of_conduct
+  - action: utter_library_code_of_conduct
