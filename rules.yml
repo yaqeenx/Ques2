@@ -236,3 +236,18 @@ rules:
   steps:
   - intent: library_code_of_conduct
   - action: utter_library_code_of_conduct
+
+- rule: student_affairs
+  steps:
+  - intent: student_affairs
+  - action: utter_student_affairs
+
+- rule: mobile_app
+  steps:
+  - intent: mobile_app
+  - action: utter_mobile_app
+
+- rule: midterm_and_final_exams_guidelines
+  steps:
+  - intent: midterm_and_final_exams_guidelines
+  - action: utter_midterm_and_final_exams_guidelines

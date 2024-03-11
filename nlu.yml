@@ -455,3 +455,23 @@ nlu:
     - What are the rules and guidelines for behavior in the library?
     - Are there any particular guidelines I need to follow when using the library?
     - What are the library's policies?
+#46
+- intent: student_affairs
+  examples: |
+    - What services does the student affairs department offer to support students?
+    - Where is the student affairs department located on campus?
+    - What are the office hours for the student affairs department?
+    - How can students contact the student affairs office?
+#47
+- intent: mobile_app
+  examples: |
+    - Can I use the university's mobile app to check my class schedule?
+    - Does the university's mobile app offer a campus map feature?
+    - Can I receive notifications about important university announcements through the mobile app?
+    - Is there a section in the mobile app where I can access library resources?
+#48
+- intent: midterm_and_final_exams_guidelines
+  examples: |
+    - What are the guidelines for scheduling midterm exams?
+    - What are the guidelines for scheduling final exams?
+    - Are there guidelines for the exam? 

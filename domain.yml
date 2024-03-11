@@ -54,7 +54,9 @@ intents:
   - inquire_advising_hours
   - reset_passwor
   - library_code_of_conduct
-
+  - student_affairs
+  - mobile_app
+  - midterm_and_final_exams_guidelines
 
 
 
@@ -319,6 +321,23 @@ responses:
 
   utter_library_code_of_conduct:
    - text: "The library strives to provide an environment conducive to study and research, and therefore all visitors to the library are asked to adhere to several rules in order to maintain safety, including maintaining calm, setting phones on silent, not leaving personal items unattended, and not bringing food and drinks into the library."
+
+  utter_student_affairs:
+   - text: "The student affairs department helps with things like counseling, academic advice, career help, clubs and activities, student conduct"
+   - text: "The student affairs department is located in the first floor library on campus"
+   - text: "The office hours for the student affairs department are from 8am  to 5pm  on Days of the Week"
+   - text: "Students can contact the student affairs office by phone , by email at student.affairs@aum.edu.kw , or by visiting the office during office hours"
+
+  utter_mobile_app:
+   - text: "you can use the university's mobile app to check your class schedule. It provides easy access to your personalized schedule"
+   - text: "the university's mobile app typically includes a campus map feature to help students navigate around campus"
+   - text: "you can receive notifications about important university announcements through the mobile app or email"
+   - text: "the mobile app usually provides a section where you can access library resources"
+
+  utter_midterm_and_final_exams_guidelines:
+   - text: You can find more information about midterm and final exams guidelines (https://myportal.aum.edu.kw/pluginfile.php/210/block_html/content/Students%20Examination%20Guidlines%20%281%29.pdf) ."
+   
+
 
 
 sesion_config:
