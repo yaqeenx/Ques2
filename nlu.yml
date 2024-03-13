@@ -475,3 +475,29 @@ nlu:
     - What are the guidelines for scheduling midterm exams?
     - What are the guidelines for scheduling final exams?
     - Are there guidelines for the exam? 
+#49
+- intent: civil_engineering
+  examples: |
+    - How many credits does the civil engineering major typically require?
+    - Could you outline the core courses required for the civil engineering major, as well as any elective options available to students?
+    - Are there any student clubs or organizations specifically for civil engineering?
+    - I want to know more about the specialty of civil engineering?
+    - Is there a sample plan of study for civil engineering?
+#50
+- intent: industrial_engineering
+  examples: |
+   - How many credits does the industrial engineering major typically require?
+   - Is there a sample plan of study for industrial engineering?
+   - I want to know more about the specialty of industrial engineering?
+   - Could you outline the core courses required for the industrial engineering major?
+   - Can you list the basic classes needed to major in industrial engineering?
+#51
+- intent: chemical_engineering
+  examples: |
+   - How many credits does the chemical engineering major require?
+   - Is there a sample plan of study for chemicall engineering?
+   - I want to know more about the specialty of chemical engineering?
+   - Could you outline the core courses required for the chemical engineering major?
+   - Can you list the basic classes needed to major in chemical engineering?
+#52
+- intent: 

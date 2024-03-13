@@ -57,7 +57,10 @@ intents:
   - student_affairs
   - mobile_app
   - midterm_and_final_exams_guidelines
-
+  - civil_engineering
+  - industrial_engineering
+  - chemical_engineering
+  
 
 
 responses:
@@ -337,7 +340,22 @@ responses:
   utter_midterm_and_final_exams_guidelines:
    - text: You can find more information about midterm and final exams guidelines (https://myportal.aum.edu.kw/pluginfile.php/210/block_html/content/Students%20Examination%20Guidlines%20%281%29.pdf) ."
    
+  utter_civil_engineering:
+   - text: "The civil engineering major typically total Minimum Credits Required for Graduation 136"
+   - text: "Core courses required for the civil engineering major cover foundational topics such as structural engineering,transportation engineering,geotechnical engineering,environmental engineering"
+   - text: "There will be many clubs or student organizations dedicated to civil engineering. These clubs provide opportunities for networking, professional development, and engagement"
+   - text: "You can visit the website to learn about civil engineering https://www.aum.edu.kw/english/academics/undergraduate-programs/bsc-civil-engineering "
 
+  utter_industrial_engineering:
+   - text: "The industrial engineering major typically total Minimum Credits Required for Graduation 125"
+   - text: "You can visit the website to learn about industrial engineering https://www.aum.edu.kw/english/academics/undergraduate-programs/bsc-industrial-engineering "
+   - text: "The core courses for industrial engineering typically include Introduction to Industrial Engineering, Engineering Economics,Probability,Operations Research,Facilities Planning and Design,Human Factors Engineering,etc"
+
+  utter_chemical_engineering:
+   - text: "The chemical engineering major typically total Minimum Credits Required for Graduation 134"
+   - text: "You can visit the website to learn about chemical engineering https://www.aum.edu.kw/english/academics/undergraduate-programs/bsc-chemical-engineering"
+   - text: "The core courses for chemical engineering usually include Chemical Engineering Thermodynamics, Transport Phenomena, Reaction Engineering, Process Control Heat Transfer, Mass Transfer, Chemical Engineering Kinetics etc"
+ 
 
 
 sesion_config:

@@ -251,3 +251,13 @@ rules:
   steps:
   - intent: midterm_and_final_exams_guidelines
   - action: utter_midterm_and_final_exams_guidelines
+
+- rule: civil_engineering
+  steps:
+  - intent: civil_engineering
+  - action: utter_civil_engineering
+
+- rule: industrial_engineering
+  steps:
+  - intent: industrial_engineering
+  - action: utter_industrial_engineering
