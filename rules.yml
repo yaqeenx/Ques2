@@ -261,3 +261,23 @@ rules:
   steps:
   - intent: industrial_engineering
   - action: utter_industrial_engineering
+
+- rule: Car_Decal
+  steps:
+  - intent: Car_Decal
+  - action: utter_Car_Decal
+
+- rule: Parking_Rules_and_Regulations
+  steps: 
+  - intent: Parking_Rules_and_Regulations
+  - action: utter_Parking_Rules_and_Regulations
+
+- rule: complaints
+  steps: 
+  - intent: complaints
+  - action: utter_complaints
+
+- rule: registration_guide
+  steps: 
+  - intent: registration_guide
+  - action: utter_registration_guide

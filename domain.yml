@@ -60,7 +60,11 @@ intents:
   - civil_engineering
   - industrial_engineering
   - chemical_engineering
-  
+  - mechanical_engineering
+  - Car Decal
+  - Parking_Rules_and_Regulations
+  - complaints
+  - registration_guide
 
 
 responses:
@@ -345,17 +349,43 @@ responses:
    - text: "Core courses required for the civil engineering major cover foundational topics such as structural engineering,transportation engineering,geotechnical engineering,environmental engineering"
    - text: "There will be many clubs or student organizations dedicated to civil engineering. These clubs provide opportunities for networking, professional development, and engagement"
    - text: "You can visit the website to learn about civil engineering https://www.aum.edu.kw/english/academics/undergraduate-programs/bsc-civil-engineering "
+   - text: "The final design project in engineering typically involves applying the knowledge and skills acquired during the program to solve a real-world engineering problem, often working in teams and collaborating with industry partners"
 
   utter_industrial_engineering:
    - text: "The industrial engineering major typically total Minimum Credits Required for Graduation 125"
    - text: "You can visit the website to learn about industrial engineering https://www.aum.edu.kw/english/academics/undergraduate-programs/bsc-industrial-engineering "
    - text: "The core courses for industrial engineering typically include Introduction to Industrial Engineering, Engineering Economics,Probability,Operations Research,Facilities Planning and Design,Human Factors Engineering,etc"
+   - text: "The final design project in engineering typically involves applying the knowledge and skills acquired during the program to solve a real-world engineering problem, often working in teams and collaborating with industry partners"
 
   utter_chemical_engineering:
    - text: "The chemical engineering major typically total Minimum Credits Required for Graduation 134"
    - text: "You can visit the website to learn about chemical engineering https://www.aum.edu.kw/english/academics/undergraduate-programs/bsc-chemical-engineering"
    - text: "The core courses for chemical engineering usually include Chemical Engineering Thermodynamics, Transport Phenomena, Reaction Engineering, Process Control Heat Transfer, Mass Transfer, Chemical Engineering Kinetics etc"
+   - text: "The final design project in engineering typically involves applying the knowledge and skills acquired during the program to solve a real-world engineering problem, often working in teams and collaborating with industry partners"
  
+  utter_mechanical_engineering:
+   - text: "The mechanical engineering major typically total Minimum Credits Required for Graduation 132"
+   - text: "You can visit the website to learn about mechanical engineering https://www.aum.edu.kw/english/academics/undergraduate-programs/bsc-mechanical-engineering"
+   - text: "The core courses for mechanical engineering typically include Mechanics of Materials,Thermodynamics,Heat Transfer,Dynamics,Machine Design,Control Systems,Engineering Materials etc"
+   - text: "The final design project in engineering typically involves applying the knowledge and skills acquired during the program to solve a real-world engineering problem, often working in teams and collaborating with industry partners"
+
+  utter_Car_Decal:
+   - text: "The process for obtaining a parking decal involves filling out an application from students affairs department or from AUM portal"
+   - text: "Documentation such as vehicle registration, student ID, and proof of enrollment may be required for obtaining a parking decal"
+   - text: "you can choose where to park with your parking decal"
+   - text: "If you do not have a parking sticker, you cannot enter the parking lots"
+   - text: "cannot be shared or transferred between students. Violation of this policy may result in penalties"
+   - text: "The University address parking for students with disabilities through measures such as providing designated parking spaces and accessible accommodations based on individual needs"
+   - text: "The University communicates changes to parking rules through  such as email notifications"
+
+  utter_Parking_Rules_and_Regulations:
+   - text: "You can visit Portal AUM to learn about parking rules and regulations, or through the link https://bss.aum.edu.kw/BannerSSS/CarDecal"
+
+  utter_complaints:
+   - text: "If you have a complaint,you can submit a request about the problem you encountered through the AUM portal -> students link -> complaint"
+
+  utter_ registration_guide:
+   - text: "The registration guide includes information about procedures on how to use the online registration system,You can visit the AUM portal -> Downloads -> Registration guide for students"
 
 
 sesion_config:

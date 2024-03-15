@@ -483,6 +483,7 @@ nlu:
     - Are there any student clubs or organizations specifically for civil engineering?
     - I want to know more about the specialty of civil engineering?
     - Is there a sample plan of study for civil engineering?
+    - Is there a final graduation design project for civil engineering?
 #50
 - intent: industrial_engineering
   examples: |
@@ -491,6 +492,7 @@ nlu:
    - I want to know more about the specialty of industrial engineering?
    - Could you outline the core courses required for the industrial engineering major?
    - Can you list the basic classes needed to major in industrial engineering?
+   - Is there a final graduation design project for industrial engineering?
 #51
 - intent: chemical_engineering
   examples: |
@@ -499,5 +501,49 @@ nlu:
    - I want to know more about the specialty of chemical engineering?
    - Could you outline the core courses required for the chemical engineering major?
    - Can you list the basic classes needed to major in chemical engineering?
+   - Is there a final graduation design project for chemical engineering?
 #52
-- intent: 
+- intent: mechanical_engineering
+  examples: |
+   - I want to know more about the specialty of mechanical engineering?
+   - How many credits does the mechanical engineering major require?
+   - Is there a sample plan of study for mechanical engineering?
+   - Could you outline the core courses required for the mechanical engineering major?
+   - Can you list the basic classes needed to major in mechanical engineering?
+   - Is there a final graduation design project for mechanical engineering?
+#53
+- intent: Car_Decal
+  examples: |
+   - What is the process for obtaining a parking decal at our university?
+   - How do I get a parking decal for my car on campus?
+   - what documentation is required for obtaining a parking decal?
+   - Can I choose where to park with my parking decal?
+   - What happens if I don't have a parking decal?
+   - Can I share my parking sticker with a friend?
+   - How does the university manage parking for students with disabilities?
+   - How will the university inform me about changes to parking rules?
+#54
+- intent: Parking_Rules_and_Regulations
+  examples: |
+   - What are the rules for parking on campus?
+   - Where can I find information about parking regulations?
+   - Are there specific times when parking is allowed or prohibited?
+   - Are there specific times when parking is allowed or prohibited?
+#55
+- intent: complaints 
+  examples: |
+   - How can students file a complaint about parking issues?
+   - Is there a designated office or department for complaints?
+   - What should students do if they encounter issues ?
+   - How can students file a complaint about campus facilities maintenance?
+   - What is the process for reporting issues with campus Wi-Fi or internet?
+   - Where can students find information about lodging complaints regarding academic services?
+   - Who should students contact if they have concerns about classroom equipment?
+#56
+- intent: registration_guide
+  examples: |
+   - How can I find the registration guide at my university?
+   - Are there any tutorials or guides available to help me with the registration process?
+   - Is the registration guide available online?
+   
+
