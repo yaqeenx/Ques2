@@ -351,15 +351,12 @@ nlu:
 #33
 - intent: AUM_calendar
   examples: |
-   - What is the academic calendar for the university, including important dates such as the start and end of each semester, holidays?
-   - How do I access the university's online academic calendar and where can I find information about class schedules, registration dates, and deadlines?
-   - Are there any special events or activities planned throughout the academic year, such as orientation programs, career fairs, or cultural festivals?
-   - How can I stay updated on any changes or updates to the university calendar, such as weather-related closures or schedule adjustments?
-   - What are the deadlines for dropping or adding classes, withdrawing from courses, or applying for graduation?
-   - How does the university handle class scheduling conflicts or issues with course availability?
-   - Are there any academic policies or procedures related to the university calendar that I should be aware of, such as grading policies, academic probation, or academic honors?
-   - How can I request accommodations for religious observances or other personal obligations that may conflict with the university calendar?
-   - How does the university calendar align with other important dates or events in the local community, such as public holidays or local festivals?
+    - What is the academic calendar for the university, including important dates such as the start and end of each semester?
+    - How do I access the university's online academic calendar and where can I find information about class schedules?
+    - How can I stay updated on any changes or updates to the university calendar?
+
+
+
 #34
 - intent: AUM_subject
   examples: |

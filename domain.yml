@@ -243,14 +243,8 @@ responses:
 
   utter_AUM_calendar:
   - text: "The academic calendar outlines key dates for each semester, including the start and end dates, holidays and exam periods"
-  - text: "The university's online academic calendar can usually be found on the official website or student portal, where you can also access information about class schedules, registration dates, and deadlines"
-  - text: "Yes, universities often host special events and activities throughout the academic year, such as orientation programs for new students, career fairs, cultural festivals, and academic conferences"
-  - text: "You can stay updated on changes to the university calendar through official communication channels, such as email alerts, the university website, social media, or mobile apps"
-  - text: " Deadlines for dropping or adding classes, withdrawing from courses, or applying for graduation are typically listed on the academic calendar and may vary by semester"
-  - text: "Universities usually have procedures in place for handling class scheduling conflicts or issues with course availability, such as waitlists, alternative class options, or advising support"
-  - text: "Yes, universities have academic policies and procedures outlined in the university catalog or student handbook that students should be familiar with, including grading policies, academic probation, and academic honors"
-  - text: "Students can typically request accommodations for religious observances or other personal obligations through the university's office of student affairs"
-  - text: "The university calendar may take into account important dates or events in the local community, such as public holidays or local festivals"
+  - text: "The university's online academic calendar can usually be found on the official website or AUM portal"
+  - text: "You can stay updated on changes to the university calendar, such as email alerts or mobile apps"
 
   utter_AUM_subject:
   - text: "At AUM, we offer a wide range of subjects across various academic disciplines. Some of the subjects you can study include Computer Science, Engineering, Business Administration, Architecture, and more"
