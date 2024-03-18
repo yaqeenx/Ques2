@@ -52,7 +52,7 @@ intents:
   - inquire_advising_services
   - schedule_advising_appointment
   - inquire_advising_hours
-  - reset_passwor
+  - reset_password
   - library_code_of_conduct
   - student_affairs
   - mobile_app
