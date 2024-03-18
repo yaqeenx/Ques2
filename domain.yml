@@ -309,7 +309,7 @@ responses:
   utter_advising_hours:
    - text: "Our advising office is open from [8am to 5pm]. You can visit during these hours for assistance."
 
-  utter_reset_passwor:
+  utter_reset_password:
    - text: " -To reset your forgotten password, navigate to the login page and look for the Forgot Password link. Click on it, and follow the prompts to reset your password.
              -if you do not receive a password reset email or SMS, check your mail folder or contact support for assistance."
    

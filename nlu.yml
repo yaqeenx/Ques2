@@ -422,7 +422,7 @@ nlu:
     - What information should I provide when reporting a lost item?
     - What should I do if I find a lost item on campus?
 #41
-- intent: inquire_advising_services
+- intent: advising_services
   examples: |
     - What services does the advising office offer?
     - Can you tell me about the advising services available?
@@ -434,7 +434,7 @@ nlu:
     - What is the process to book an advising appointment?
     - Can you help me set up a meeting with an advisor?
 #43
-- intent: inquire_advising_hours
+- intent: advising_hours
   examples: |
     - When is the advising office open?
     - What are the office hours for the advising department?
@@ -478,7 +478,7 @@ nlu:
     - Are there any student clubs or organizations specifically for civil engineering?
     - I want to know more about the specialty of civil engineering?
     - Is there a sample plan of study for civil engineering?
-    - Is there a final graduation design project for civil engineering?
+    
 #50
 - intent: industrial_engineering
   examples: |
@@ -487,7 +487,7 @@ nlu:
    - I want to know more about the specialty of industrial engineering?
    - Could you outline the core courses required for the industrial engineering major?
    - Can you list the basic classes needed to major in industrial engineering?
-   - Is there a final graduation design project for industrial engineering?
+   
 #51
 - intent: chemical_engineering
   examples: |
@@ -496,7 +496,7 @@ nlu:
    - I want to know more about the specialty of chemical engineering?
    - Could you outline the core courses required for the chemical engineering major?
    - Can you list the basic classes needed to major in chemical engineering?
-   - Is there a final graduation design project for chemical engineering?
+   
 #52
 - intent: mechanical_engineering
   examples: |
@@ -505,7 +505,7 @@ nlu:
    - Is there a sample plan of study for mechanical engineering?
    - Could you outline the core courses required for the mechanical engineering major?
    - Can you list the basic classes needed to major in mechanical engineering?
-   - Is there a final graduation design project for mechanical engineering?
+   
 #53
 - intent: Car_Decal
   examples: |
