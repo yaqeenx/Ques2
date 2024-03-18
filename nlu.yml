@@ -355,8 +355,6 @@ nlu:
     - How do I access the university's online academic calendar and where can I find information about class schedules?
     - How can I stay updated on any changes or updates to the university calendar?
 
-
-
 #34
 - intent: AUM_subject
   examples: |
@@ -543,4 +541,3 @@ nlu:
    - Are there any tutorials or guides available to help me with the registration process?
    - Is the registration guide available online?
    
-
