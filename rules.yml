@@ -320,3 +320,29 @@ rules:
   steps:
   - intent: cancelling_the_withdrawal_request_during_the_semester 
   - action: utter_cancelling_the_withdrawal_request_during_the_semester 
+
+- rule: ask about cheating
+  steps:
+  - intent: cheating
+  - action: utter_cheating
+
+- rule: ask about plagiarism
+  steps:
+  - intent: plagiarism
+  - action: utter_plagiarism
+
+- rule: ask about violation of dress code
+  steps:
+  - intent: violation_of_dress_code
+  - action: utter_violation_of_dress_code
+
+- rule: ask about no smoking policy
+  steps:
+  - intent: no_smoking_policy
+  - action: utter_no_smoking_policy
+
+- rule: ask about Hassan Kanj
+  steps:
+  - intent: instructor_Hassan_Kanj
+  - action: utter_instructor_Hassan_Kanj
+

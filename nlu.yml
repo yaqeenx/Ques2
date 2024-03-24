@@ -591,7 +591,31 @@ nlu:
   examples: |
    - Is there a deadline for canceling my withdrawal request?
    - Can I cancel my withdrawal request multiple times in the same semester?
-   -What is the overall cumulative GPA required to withdraw from withdrawal?
-
-
-   
+   - What is the overall cumulative GPA required to withdraw from withdrawal?
+#65
+- intent: cheating
+  examples: |
+   - What is cheating?
+   - What are the consequences of being caught cheating?
+   - What exactly is considered cheating?
+#66
+- intent: plagiarism 
+  examples: |
+   - What is plagiarism?
+   - What steps can i take to avoid plagiarism?
+#67
+- intent: violation_of_dress_code
+  examples: |
+   - What is considered a violation of the dress code?
+   - How can I know if my outfit follows the dress code guidelines?
+#68
+- intent: no_smoking_policy
+  examples: |
+   - Where are the designated smoking areas on campus?
+   - Where can students smoke according to the policy?
+#69
+- intent: instructor_Hassan_Kanj
+  examples: |
+   - Where is the instructor Hassan Kanj office located?
+   - Is there a specific email address I should use to contact the instructor Hassan Kanj?
+   - What department does the instructor Hassan Kanj belong to?

@@ -73,7 +73,10 @@ intents:
   - freezing_semester
   - official_withdrawal_from_AUM
   - cancelling_the_withdrawal_request_during_the_semester 
- 
+  - cheating
+  - plagiarism
+  - violation_of_dress_code
+  - no_smoking_policy
 
 
 responses:
@@ -420,6 +423,30 @@ responses:
    - text: "- Reversing the withdrawal must be within a maximum period of 10 consecutive days from the date of submitting the withdrawal request.
             - A student can withdraw from the university only once during the period of his studies at the university.
             - The students overall cumulative GPA should not be less than 2.33 (+C)."
+
+  utter_cheating:
+   - text: " - Cheating is any form of dishonest behavior, such as copying someone else's work, or using unauthorized aids during exams.
+             - Any student who commits any cheating violation is considered to have committed an academic dishonesty violation."
+
+  utter_plagiarism:
+   - text: " - Plagiarism is the act of using someone else's ideas, words, or work without proper acknowledgment or citation.
+             - you can avoid plagiarism by properly citing sources, using quotation marks for direct quotes."
+
+  utter_violation_of_dress_code:
+   - text: " -The student sgould drees decent, modest clothing that is not obscene and culturally acceptable."
+
+  utter_no_smoking_policy:
+   - text: "- It is strictly forbidden for students to smoke inside university facilities(such as corridors, toilet, elevators or emergency exit)"
+  
+  utter_instructor_Hassan_Kanj:
+   - text: " - You can contact instructor Hassan Kanj via email: Hassan.Kanj@aum.edu.kw .
+             - Instructor Hassan Kanj office is located in the Computer Department in the Engineering Building,first floor."
+
+
+
+
+
+
 
 
 sesion_config:
