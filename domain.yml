@@ -77,6 +77,7 @@ intents:
   - plagiarism
   - violation_of_dress_code
   - no_smoking_policy
+  - instructor_Hassan_Kanj
 
 
 responses:
