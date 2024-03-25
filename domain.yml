@@ -65,19 +65,58 @@ intents:
   # - Parking_Rules_and_Regulations
   # - complaints
   # - registration_guide
-  - AUM_soft_skills
-  - AUM_book_store
-  - robotics_research_center
-  - nanotechnology_center
-  - toefl_and_ielts
-  - freezing_semester
-  - official_withdrawal_from_AUM
-  - cancelling_the_withdrawal_request_during_the_semester 
-  - cheating
-  - plagiarism
-  - violation_of_dress_code
-  - no_smoking_policy
-  - instructor_Hassan_Kanj
+  # - AUM_soft_skills
+  # - AUM_book_store
+  # - robotics_research_center
+  # - nanotechnology_center
+  # - toefl_and_ielts
+  # - freezing_semester
+  # - official_withdrawal_from_AUM
+  # - cancelling_the_withdrawal_request_during_the_semester 
+  # - cheating
+  # - plagiarism
+  # - violation_of_dress_code
+  # - no_smoking_policy
+  # - instructor_Hassan_Kanj
+  #newnewnewnew
+  - repeat_specific_courses
+  - fail_pre_english_math
+  - sponsorship_ccourse_repetition_fees
+  - approvals_repeat_improve_CGPA
+  - steps_retake_subject_need
+  - repeat_course_prerequisite_another_course
+  - failed_course_replaced
+  - change_major_bus_eng_requirements
+  - change_major_eng_bus_requirements
+  - bus_change_major_condition
+  - eng_change_major_eng
+  - attendance_importance
+  - honors_list_criteria
+  - grading_table
+  - park_car
+  - join_art_club
+  - join_book_club
+  - join_drama_club
+  - join_music_club
+  - join_photography_club
+  - join_speech_communication_club
+  - art_club_location 
+  - book_club_location
+  - drama_club_location
+  - music_club_location
+  - photo_club_location
+  - speech_communication_club_location
+  - art_club_info
+  - book_club_info
+  - drama_club_info
+  - music_club_info
+  - photo_club_info
+  - speech_communication_club_info
+  - UG_2023_2024_calendar
+  - EPP_2023_2024_calendar
+  - attendance_policy
+  - examination_guidelines
+  - med_examination_form
 
 
 responses:
@@ -389,62 +428,184 @@ responses:
   #  - text: "The registration guide includes information about procedures on how to use the online registration system,You can visit the AUM portal -> Downloads -> Registration guide for students"
 
  
-  utter_AUM_soft_skills:
-   - text: " students have the opportunity to engage in these self-paced e-courses that will upgrade their skills and their CV, for more info, consult https://elearning.aum.edu.kw/"
+  # utter_AUM_soft_skills:
+  #  - text: " students have the opportunity to engage in these self-paced e-courses that will upgrade their skills and their CV, for more info, consult https://elearning.aum.edu.kw/"
 
-  utter_AUM_book_store:
-   - text: " - bookstore working hours are from 8am to 5pm.
-             - The bookstore is located in the engineering basement.
-             - AUM provides students with a bookstore that sells textbooks and e-books in addition to meeting their paper and stationery needs."
+  # utter_AUM_book_store:
+  #  - text: " - bookstore working hours are from 8am to 5pm.
+  #            - The bookstore is located in the engineering basement.
+  #            - AUM provides students with a bookstore that sells textbooks and e-books in addition to meeting their paper and stationery needs."
             
-  utter_robotics_research_center:
-   - text: " - The Robotics Research Center aims to expand studentst knowledge and hone their skills in the field of AI. The center offers a wide range of multidisciplinary research and educational programs."
+  # utter_robotics_research_center:
+  #  - text: " - The Robotics Research Center aims to expand studentst knowledge and hone their skills in the field of AI. The center offers a wide range of multidisciplinary research and educational programs."
 
-  utter_nanotechnology_center:
-   - text: " - The center aims to enhance nanotechnology education among AUM students. The university intends for the center to be an educational facility that provides students with a practical vision of nanoscience and its engineering."
+  # utter_nanotechnology_center:
+  #  - text: " - The center aims to enhance nanotechnology education among AUM students. The university intends for the center to be an educational facility that provides students with a practical vision of nanoscience and its engineering."
 
-  utter_toefl_and_ielts:
-   - text: "- TOEFL is primarily and is computer-based, while IELTS is paper-based.
-            - The TOEFL and  IELTS exam consists of four sections: Reading, Listening, Speaking, and Writing.
-            - Obtaining a score of 60 or higher in the TOEFL test, or a score of 6 or higher in the IELTS test.
-            - EPP students can register for the TOEFL/IELTS test, which exempts the student from the preparatory program level 1 or 2."
+  # utter_toefl_and_ielts:
+  #  - text: "- TOEFL is primarily and is computer-based, while IELTS is paper-based.
+  #           - The TOEFL and  IELTS exam consists of four sections: Reading, Listening, Speaking, and Writing.
+  #           - Obtaining a score of 60 or higher in the TOEFL test, or a score of 6 or higher in the IELTS test.
+  #           - EPP students can register for the TOEFL/IELTS test, which exempts the student from the preparatory program level 1 or 2."
 
-  utter_freezing_semester:
-   - text: " - Freezing a semester means taking a temporary break from your studies without officially withdrawing.
-             - A student can freeze his studies for any number of semesters, provided that the freeze is not for more than two consecutive semesters.
-             - A student can freeze his studies provided that he graduates within a maximum period of 8 years from the date of his enrollment at the university."
+  # utter_freezing_semester:
+  #  - text: " - Freezing a semester means taking a temporary break from your studies without officially withdrawing.
+  #            - A student can freeze his studies for any number of semesters, provided that the freeze is not for more than two consecutive semesters.
+  #            - A student can freeze his studies provided that he graduates within a maximum period of 8 years from the date of his enrollment at the university."
 
-  utter_official_withdrawal_from_AUM:
-   - text: "- The student wishing to withdraw from the university must attend an interview at the Student Affairs Department.
-            - The student must complete the withdrawal form and submit it to the Student Affairs Department, along with the reasons.
-            - students receive a grade (W) on all course of the semester of the withdrawal.
-            - In case of withdrawal , the students is entitled for a re-entry, according to AUM re-admission policy."
+  # utter_official_withdrawal_from_AUM:
+  #  - text: "- The student wishing to withdraw from the university must attend an interview at the Student Affairs Department.
+  #           - The student must complete the withdrawal form and submit it to the Student Affairs Department, along with the reasons.
+  #           - students receive a grade (W) on all course of the semester of the withdrawal.
+  #           - In case of withdrawal , the students is entitled for a re-entry, according to AUM re-admission policy."
 
-  utter_cancelling_the_withdrawal_request_during_the_semester:
-   - text: "- Reversing the withdrawal must be within a maximum period of 10 consecutive days from the date of submitting the withdrawal request.
-            - A student can withdraw from the university only once during the period of his studies at the university.
-            - The students overall cumulative GPA should not be less than 2.33 (+C)."
+  # utter_cancelling_the_withdrawal_request_during_the_semester:
+  #  - text: "- Reversing the withdrawal must be within a maximum period of 10 consecutive days from the date of submitting the withdrawal request.
+  #           - A student can withdraw from the university only once during the period of his studies at the university.
+  #           - The students overall cumulative GPA should not be less than 2.33 (+C)."
 
-  utter_cheating:
-   - text: " - Cheating is any form of dishonest behavior, such as copying someone else's work, or using unauthorized aids during exams.
-             - Any student who commits any cheating violation is considered to have committed an academic dishonesty violation."
+  # utter_cheating:
+  #  - text: " - Cheating is any form of dishonest behavior, such as copying someone else's work, or using unauthorized aids during exams.
+  #            - Any student who commits any cheating violation is considered to have committed an academic dishonesty violation."
 
-  utter_plagiarism:
-   - text: " - Plagiarism is the act of using someone else's ideas, words, or work without proper acknowledgment or citation.
-             - you can avoid plagiarism by properly citing sources, using quotation marks for direct quotes."
+  # utter_plagiarism:
+  #  - text: " - Plagiarism is the act of using someone else's ideas, words, or work without proper acknowledgment or citation.
+  #            - you can avoid plagiarism by properly citing sources, using quotation marks for direct quotes."
 
-  utter_violation_of_dress_code:
-   - text: " -The student sgould drees decent, modest clothing that is not obscene and culturally acceptable."
+  # utter_violation_of_dress_code:
+  #  - text: " -The student sgould drees decent, modest clothing that is not obscene and culturally acceptable."
 
-  utter_no_smoking_policy:
-   - text: "- It is strictly forbidden for students to smoke inside university facilities(such as corridors, toilet, elevators or emergency exit)"
+  # utter_no_smoking_policy:
+  #  - text: "- It is strictly forbidden for students to smoke inside university facilities(such as corridors, toilet, elevators or emergency exit)"
   
-  utter_instructor_Hassan_Kanj:
-   - text: " - You can contact instructor Hassan Kanj via email: Hassan.Kanj@aum.edu.kw .
-             - Instructor Hassan Kanj office is located in the Computer Department in the Engineering Building,first floor."
+  # utter_instructor_Hassan_Kanj:
+  #  - text: " - You can contact instructor Hassan Kanj via email: Hassan.Kanj@aum.edu.kw .
+  #            - Instructor Hassan Kanj office is located in the Computer Department in the Engineering Building,first floor."
 
 
+ #newnewnewnew
+  utter_repeat_specific_courses:
+   - text: "Students can repeat specific courses as many times as needed to pass and graduate within eight academic years from their enrollment in the University, excluding the duration of the English and Mathematics Preparatory Program."
 
+  utter_fail_pre_english_math:
+   - text: "Students in the English and Mathematics Preparatory Program are dismissed if they fail to fulfill the required success grade after repeating a course."
+
+  utter_sponsorship_ccourse_repetition_fees:
+   - text: "Students subject to sponsorship agreements are responsible for meeting regulations set by AUM and their sponsor concerning course repetition fees."
+
+  utter_approvals_repeat_improve_CGPA:
+   - text: "Academic Advancement Center (AAC) and Dean's approval are required to ensure the conditions of repetition are met and to determine the academic impact of the course repetition."
+
+  utter_steps_retake_subject_need:
+   - text: "They should comply with University regulations and register for a maximum of four courses for one semester only, in the subsequent semester from which they have completed the necessary academic requirement for graduation."
+
+  utter_repeat_course_prerequisite_another_course:
+   - text: "If the grade of a course to be repeated is F/AF and is a requirement or prerequisite for another course(s), the student should repeat it before registering for the subsequent related courses."
+
+  utter_failed_course_replaced:
+   - text: "If an F/AF grade is obtained in a course, the same course should be repeated and cannot be replaced or substituted with another course."
+
+  utter_change_major_bus_eng_requirements:
+   - text: "The student should be a graduate of a science major in high school, have completed between 24 and 75 credits in their current major, maintain a cumulative GPA of not less than 3.0, pass the MAT 150 course with a minimum grade of B+, obtain approval from the concerned committee, and not have committed any major academic or non-academic conduct violations."
+
+  utter_change_major_eng_bus_requirements:
+   - text: "The student should have completed between 24 and 75 credits in their current major, maintain a cumulative GPA of not less than 2.33, obtain approval from the concerned committee, and not have committed any major academic or non-academic conduct violations."
+
+  utter_bus_change_major_condition:
+   - text: "The student should have completed between 24 and 75 credits in their current major, maintain a cumulative GPA of not less than 2.67 for changing to Accounting major, obtain approval from the concerned committee, and not have committed any major academic or non-academic conduct violations."
+
+  utter_eng_change_major_eng:
+   - text: "The student should have completed between 24 and 75 credits in their current major, maintain a cumulative GPA of not less than 2.67, obtain approval from the concerned committee, and not have committed any major academic or non-academic conduct violations."
+
+  utter_attendance_importance:
+   - text: "AUM considers attendance a key element in achieving its mission and educational philosophy. Students must attend classes, are responsible for all material presented, and are required to catch up on missed coursework. Attendance policies, including makeup policies, are available on the MyAUM Portal."
+
+  utter_honors_list_criteria:
+   - text: "Students must have a semester GPA of 3.5 or above, not receive a grade less than C in any course during the semester, register for a semester course load of a minimum of 12 credits, not have committed any major academic or non-academic conduct violations, and not receive an AF grade in any course during the semester."
+
+  utter_grading_table:
+   - text: "Please check the image provided for the grading table."
+     image: "https://ibb.co/h7N4ycq"
+
+  utter_park_car:
+   - text: "Students can park Multi Storey Parking Buildings, and Parking gate E1 & E2 as provided in the image"
+     image: "https://ibb.co/M5bK0gd"
+
+  utter_join_art_club:
+   - text: "Taida Hefford - B2-S, Liberal Arts Department, office #23, Art.Club@aum.edu.kw "
+
+  utter_join_book_club:
+   - text: "Tamara Oshchepkova - B2-S, Liberal Arts Department, office #36, Book.Club@aum.edu.kw "
+
+
+  utter_join_drama_club:
+   - text: "Petar Kaukov - B2-S, Liberal Arts Department, office #50, Drama.Club@aum.edu.kw "
+
+
+  utter_join_music_club:
+   - text: "Bogdan Scurtu - B2-S, Liberal Arts Department, office #4, Music.Club@aum.edu.kw "
+
+
+  utter_join_photography_club:
+   - text: "Taida Hefford - B2-S, Liberal Arts Department, office #23, Photo.Club@aum.edu.kw "
+
+
+  utter_join_speech_communication_club:
+   - text: "Berke Andic -> Writing Lab, Speech.Club@aum.edu.kw "
+    
+
+  utter_art_club_location:
+   - text: "Art Studio, Cultural Center 1st Floor"
+
+  utter_book_club_location:
+   - text: "AUM Writing Lab, Business Building Ground Floor"
+    
+
+  utter_drama_club_location:
+   - text: "AUM Cultural Center"
+
+  utter_music_club_location:
+   - text: "Cultural Center 1st Floor"
+
+  utter_photo_club_location:
+   - text: "Cultural Center 1st Floor"
+
+  utter_speech_communication_club_location:
+   - text: "Business Building Ground Floor"
+
+  utter_art_club_info:
+   - text: "Art Club is designed to serve as a gathering point for students interested in all disciplines of Art and Design with the aim of promoting and supporting an enthusiasm for visual arts. Club members: 50 Students. Requirements and membership criteria: 80% attendance; portfolio submission."
+
+  utter_book_club_info:
+   - text: "Book Club is established to promote reading and communication skills. It gives wings to our students’ imagination and creative thinking as it will be the platform to meet likeminded literature lovers to exchange ideas and reviews on some published books. It will also provide a stage to share and seek ideas. Book Club is established for the students who have a good taste of literature and need a place to formalize this talent and a podium to share it with the rest of the world. The Club is the podium. Club members: 20 Students. Requirements and membership criteria: 80% attendance."
+  
+  utter_drama_club_info:
+   - text: "The Drama Club is intended for students who are interested in the art of Theatre, as well as in different aspects of theatrical structure and organization. The club will develop and promote the talent and dedication of its members by organizing workshops and performances. Club members: 20 Students. Requirements and membership criteria: 80% attendance; audition."
+
+  utter_music_club_info:
+   - text: "Music Club is designed to serve to promote musical taste and talent amongst AUM students by organizing concerts, workshops and performances. Club members: 50 Students. Requirements and membership criteria: 80% attendance; auditions."
+
+  utter_photo_club_info:
+   - text: "Photography Club is created for students who are interested in exploring the art of photography and the creative possibilities offered by photo cameras. Club members: 20 Students. Requirements and membership criteria: 80% attendance; portfolio submission."
+
+  utter_speech_communication_club_info:
+   - text: "The aim of the Speech and Communication Club is to provide a non-competitive platform for students to improve their interpersonal verbal and nonverbal communication skills and learn to express themselves in a constructive manner. Club members: 20 Students. Requirements and membership criteria: 80% attendance; public speaking."
+
+  utter_UG_2023_2024_calendar:
+   - text: "Please login to view the UG calendar  https://myportal.aum.edu.kw/pluginfile.php/210/block_html/content/Academic%20Calendar%202023-2024%20-%20UG.pdf?time=1695545438604 "
+
+  utter_EPP_2023_2024_calendar:
+   - text: "Please login to view the EPP calendar https://myportal.aum.edu.kw/pluginfile.php/210/block_html/content/Academic%20Calendar%202023-2024%20-%20EPP.pdf?time=1695545348462 "
+
+  utter_attendance_policy:
+   - text: "Please login to view the attendance policy at AUM https://myportal.aum.edu.kw/pluginfile.php/210/block_html/content/AUM%20attendance%20policy.pdf "
+
+  utter_examination_guidelines:
+   - text: "Please login to view the examination guidelines https://myportal.aum.edu.kw/pluginfile.php/210/block_html/content/Students%20Examination%20Guidlines%20%281%29.pdf "
+
+  utter_med_examination_form:
+   - text: "Please login to view the examination form https://myportal.aum.edu.kw/pluginfile.php/210/block_html/content/Student%20Affairs%20Departmentc%203333%20%28002%29.pdf "
+    
 
 
 

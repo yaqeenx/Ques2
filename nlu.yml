@@ -541,81 +541,460 @@ nlu:
 #    - Are there any tutorials or guides available to help me with the registration process?
 #    - Is the registration guide available online?
    
+# #57
+# - intent: AUM_soft_skills
+#   examples: |
+#    - what is soft skills e-courses platform at aum?
+#    - Are there any workshops or programs available at AUM to help improve my soft skills?
+#    - How can I access the soft skills platform?
+# #58
+# - intent: AUM_book_store
+#   examples: |
+#    - Where is the bookstore located on campus?
+#    - What are the bookstore hours?
+#    - Does the bookstore sell supplies like notebooks, pens, and folders?
+# #59
+# - intent: robotics_research_center
+#   examples: |
+#    - What are the goals of the robotics research center?
+#    - How does the center aim to support student and research in robotics?
+#    - Does therobotics research center offer interdisciplinary research programs?
+# #60
+# - intent: nanotechnology_center
+#   examples: |
+#    - What is the aims of the nanotechnology center?
+#    - How does the center contribute to nanotechnology research?
+#    - Why was the nanotechnology center established?
+# #61
+# - intent: toefl_and_ielts
+#   examples: |
+#    - What is the difference between TOEFL and IELTS?
+#    - What is the format of the TOEFL/IELTS exam?
+#    - What score do I need to pass the TOEFL/IELTS exam?
+#    - Can the EPP student register for the TOEFL/IELTS test?
+# #62
+# - intent: freezing_semester
+#   examples: |
+#    - What does it mean to freeze a semester?
+#    - Can I freeze my semester multiple times?
+#    - How does the semester freeze affect the graduation timeline?
+# #63
+# - intent: official_withdrawal_from_AUM
+#   examples: |
+#    - How do I officially withdraw from AUM?
+#    - Is there a formal withdrawal form?
+#    - Where can I submit the official withdrawal form?
+#    - What grade will I get if I withdraw from the university?
+#    - If I officially withdraw from the university, can I apply again?
+# #64
+# - intent: cancelling_the_withdrawal_request_during_the_semester 
+#   examples: |
+#    - Is there a deadline for canceling my withdrawal request?
+#    - Can I cancel my withdrawal request multiple times in the same semester?
+#    - What is the overall cumulative GPA required to withdraw from withdrawal?
+# #65
+# - intent: cheating
+#   examples: |
+#    - What is cheating?
+#    - What are the consequences of being caught cheating?
+#    - What exactly is considered cheating?
+# #66
+# - intent: plagiarism 
+#   examples: |
+#    - What is plagiarism?
+#    - What steps can i take to avoid plagiarism?
+# #67
+# - intent: violation_of_dress_code
+#   examples: |
+#    - What is considered a violation of the dress code?
+#    - How can I know if my outfit follows the dress code guidelines?
+# #68
+# - intent: no_smoking_policy
+#   examples: |
+#    - Where are the designated smoking areas on campus?
+#    - Where can students smoke according to the policy?
+# #69
+# - intent: instructor_Hassan_Kanj
+#   examples: |
+#    - Where is the instructor Hassan Kanj office located?
+#    - Is there a specific email address I should use to contact the instructor Hassan Kanj?
+#    - What department does the instructor Hassan Kanj belong to?
+
+#51
+- intent: repeat_specific_courses
+  examples: |
+   - What is the maximum duration allowed for students to repeat specific courses in order to pass and graduate?
+   - What is the allotted timeframe within which students can retake particular courses to successfully complete them and earn their degrees?
+   - What is the prescribed time limit for students to retake specific courses with the aim of passing and completing their graduation requirements?
+   - Within what timeframe are students permitted to repeat certain courses in order to fulfill the necessary criteria for graduation?
+   - How long are students allowed to retake specific courses in order to meet the requirements for passing and obtaining their degrees?
+   - What is the stipulated duration during which students may reattempt particular courses to achieve passing grades and fulfill graduation prerequisites?
+
+#52
+- intent: fail_pre_english_math
+  examples: |
+   - What are the consequences for students in the English and Mathematics Preparatory Program if they fail to meet the required success grade after repeating a course?
+   - What are the outcomes for students in the English and Mathematics Preparatory Program if they fail to meet the expected success grade following the repetition of a course?
+   - What are the ramifications for students in the English and Mathematics Preparatory Program if they do not reach the necessary success grade upon redoing a course?
+   - What are the implications for students in the English and Mathematics Preparatory Program if they do not meet the requisite success grade even after repeating a course?
+   - What are the results for students in the English and Mathematics Preparatory Program if they fail to attain the required success grade after undergoing a course repetition?
+   - What happens to students in the English and Mathematics Preparatory Program if they don't achieve the required success grade after retaking a course?
+
+#53
+- intent: sponsorship_ccourse_repetition_fees
+  examples: |
+   - Who is responsible for meeting regulations concerning course repetition fees for students under sponsorship agreements?
+   - Who is accountable for ensuring that students under sponsorship agreements adhere to regulations regarding course repetition fees?
+   - Who bears the responsibility for ensuring that students under sponsorship agreements comply with regulations regarding course repetition fees?
+   - Who is tasked with making sure that students under sponsorship agreements meet regulations concerning course repetition fees?
+   - Who is obligated to ensure that students under sponsorship agreements follow regulations regarding course repetition fees?
+   - Who is responsible for ensuring that students under sponsorship agreements abide by regulations concerning course repetition fees?
+
+#54
+- intent: approvals_repeat_improve_CGPA
+  examples: |
+   - What approvals are required for students intending to repeat courses to improve their CGPA?
+   - What authorizations are necessary for students planning to retake courses to enhance their CGPA?
+   - What permissions do students need if they intend to repeat courses to boost their CGPA?
+   - What approvals must students obtain if they plan to retake courses to enhance their CGPA?
+   - What sanctions do students need to acquire if they aim to repeat courses to elevate their CGPA?
+   - What clearances are mandatory for students seeking to retake courses to improve their CGPA?
+
+#55
+- intent: steps_retake_subject_need
+  examples: |
+   - What is the procedure for students who have completed their academic graduation requirements but intend to repeat certain subjects?
+   - What steps do students who have fulfilled their academic graduation criteria but wish to retake specific subjects need to follow?
+   - What is the process for students who have met their academic graduation prerequisites but desire to retake particular subjects?
+   - What is the protocol for students who have completed their academic graduation requirements but plan to redo specific subjects?
+   - What are the steps for students who have satisfied their academic graduation criteria but want to repeat particular subjects?
+   - What is the procedure for students who have fulfilled their academic graduation requirements but intend to retake specific subjects?
+
+#56
+- intent: repeat_course_prerequisite_another_course
+  examples: |
+   - When should a student repeat a course if it is a requirement or prerequisite for another course?
+   - When is it necessary for a student to retake a course if it serves as a requirement or prerequisite for another course?
+   - At what point should a student repeat a course if it is a prerequisite or requirement for another course?
+   - In what circumstances should a student retake a course if it acts as a prerequisite or requirement for another course?
+   - Under what conditions should a student repeat a course if it is necessary for another course as a prerequisite or requirement?
+   - When must a student retake a course if it is essential for another course as a prerequisite or requirement?
+
 #57
-- intent: AUM_soft_skills
+- intent: failed_course_replaced
   examples: |
-   - what is soft skills e-courses platform at aum?
-   - Are there any workshops or programs available at AUM to help improve my soft skills?
-   - How can I access the soft skills platform?
+   - Can a failed course be replaced or substituted with another course?
+   - Is it permissible to substitute or replace a failed course with another course?
+   - Can a course that has been failed be exchanged or substituted with a different course?
+   - Is it allowed to replace or substitute a failed course with an alternative course?
+   - Are students permitted to swap or replace a failed course with another course?
+   - Is there an option to substitute or exchange a failed course with a different course?
+
 #58
-- intent: AUM_book_store
+- intent: change_major_bus_eng_requirements
   examples: |
-   - Where is the bookstore located on campus?
-   - What are the bookstore hours?
-   - Does the bookstore sell supplies like notebooks, pens, and folders?
+   - What are the requirements for changing a major from the College of Business Administration to the College of Engineering and Technology?
+   - What prerequisites must be met for switching majors from the College of Business Administration to the College of Engineering and Technology?
+   - What are the conditions for changing majors from the College of Business Administration to the College of Engineering and Technology?
+   - What criteria need to be fulfilled for transitioning from the College of Business Administration to the College of Engineering and Technology?
+   - What are the prerequisites for changing majors from the College of Business Administration to the College of Engineering and Technology?
+   - What are the necessary qualifications for switching majors from the College of Business Administration to the College of Engineering and Technology?
+
 #59
-- intent: robotics_research_center
+- intent: change_major_eng_bus_requirements
   examples: |
-   - What are the goals of the robotics research center?
-   - How does the center aim to support student and research in robotics?
-   - Does therobotics research center offer interdisciplinary research programs?
+   - What are the criteria for changing a major from the College of Engineering and Technology to the College of Business Administration?
+   - What are the requirements for transferring from the College of Engineering and Technology to the College of Business Administration?
+   - What conditions must be met to change majors from the College of Engineering and Technology to the College of Business Administration?
+   - What criteria need to be fulfilled for switching majors from the College of Engineering and Technology to the College of Business Administration?
+   - What prerequisites are necessary for transitioning from the College of Engineering and Technology to the College of Business Administration?
+   - What qualifications are needed for changing majors from the College of Engineering and Technology to the College of Business Administration?
+
 #60
-- intent: nanotechnology_center
+- intent: bus_change_major_condition
   examples: |
-   - What is the aims of the nanotechnology center?
-   - How does the center contribute to nanotechnology research?
-   - Why was the nanotechnology center established?
+   - What are the conditions for changing a major within the College of Business Administration?
+   - What requirements must be met for changing majors within the College of Business Administration?
+   - What criteria apply to changing majors within the College of Business Administration?
+   - What are the prerequisites for switching majors within the College of Business Administration?
+   - What are the eligibility criteria for changing majors within the College of Business Administration?
+   - What conditions need to be satisfied to change majors within the College of Business Administration?
+
 #61
-- intent: toefl_and_ielts
+- intent: eng_change_major_eng
   examples: |
-   - What is the difference between TOEFL and IELTS?
-   - What is the format of the TOEFL/IELTS exam?
-   - What score do I need to pass the TOEFL/IELTS exam?
-   - Can the EPP student register for the TOEFL/IELTS test?
+   - What are the requirements for changing a major within the College of Engineering and Technology from Engineering Majors to Engineering Majors?
+   - What prerequisites must be fulfilled for changing majors within the College of Engineering and Technology from Engineering Majors to Engineering Majors?
+   - What are the conditions for switching majors within the College of Engineering and Technology from Engineering Majors to Engineering Majors?
+   - What are the eligibility criteria for changing majors within the College of Engineering and Technology from Engineering Majors to Engineering Majors?
+   - What prerequisites apply to changing majors within the College of Engineering and Technology from Engineering Majors to Engineering Majors?
+   - What are the requirements for transferring majors within the College of Engineering and Technology from Engineering Majors to Engineering Majors?
+
 #62
-- intent: freezing_semester
+- intent: attendance_importance
   examples: |
-   - What does it mean to freeze a semester?
-   - Can I freeze my semester multiple times?
-   - How does the semester freeze affect the graduation timeline?
+   - How does AUM define attendance and its importance?
+   - How does AUM characterize attendance and its significance?
+   - How is attendance defined at AUM and why is it important?
+   - What is AUM's interpretation of attendance and why does it hold significance?
+   - How does AUM define attendance and what is its significance?
+   - What is AUM's perspective on attendance and why does it matter?
+
 #63
-- intent: official_withdrawal_from_AUM
+- intent: honors_list_criteria
   examples: |
-   - How do I officially withdraw from AUM?
-   - Is there a formal withdrawal form?
-   - Where can I submit the official withdrawal form?
-   - What grade will I get if I withdraw from the university?
-   - If I officially withdraw from the university, can I apply again?
+   - What are the criteria for being named on the Honors List at AUM?
+   - What are the conditions for being included on AUM's Honors List?
+   - What are the requirements for making it onto the Honors List at AUM?
+   - What criteria must students meet to be listed on AUM's Honors List?
+   - What are the standards for inclusion on AUM's Honors List?
+   - What are the prerequisites for being recognized on AUM's Honors List?
+
 #64
-- intent: cancelling_the_withdrawal_request_during_the_semester 
+- intent: grading_table
   examples: |
-   - Is there a deadline for canceling my withdrawal request?
-   - Can I cancel my withdrawal request multiple times in the same semester?
-   - What is the overall cumulative GPA required to withdraw from withdrawal?
+   - Can I have the grading table?
+   - Could you please provide me with the grading table?
+   - May I have access to the grading table?
+   - Is it possible to obtain the grading table?
+   - Would you mind sharing the grading table with me?
+   - Could you kindly provide the grading table?
+
 #65
-- intent: cheating
+- intent: park_car
   examples: |
-   - What is cheating?
-   - What are the consequences of being caught cheating?
-   - What exactly is considered cheating?
+   - Where can I park my car?
+   - Where is the designated parking area?
+   - Could you please direct me to the parking lot?
+   - Where can I find parking for my car?
+   - May I know the location of the parking facilities?
+   - Could you guide me to the nearest parking spot?
+
 #66
-- intent: plagiarism 
+- intent: join_art_club
   examples: |
-   - What is plagiarism?
-   - What steps can i take to avoid plagiarism?
+   - How can I join the art club?
+   - How do I become a member of the art club?
+   - What is the process for joining the art club?
+   - How can I get involved with the art club?
+   - What steps do I need to take to join the art club?
+   - Where can I find information on joining the art club?
+
 #67
-- intent: violation_of_dress_code
+- intent: join_book_club
   examples: |
-   - What is considered a violation of the dress code?
-   - How can I know if my outfit follows the dress code guidelines?
+   - How can I join the book club?
+   - What are the steps to become a member of the book club?
+   - How do I get involved with the book club?
+   - Where can I find information about joining the book club?
+   - What is the process for joining the book club?
+   - How can I become a part of the book club?
+
 #68
-- intent: no_smoking_policy
+- intent: join_drama_club
   examples: |
-   - Where are the designated smoking areas on campus?
-   - Where can students smoke according to the policy?
+   - How can I join the Drama Club?
+   - What steps do I need to take to become a member of the Drama Club?
+   - How can I get involved in the Drama Club?
+   - Where can I find information about joining the Drama Club?
+   - What is the process for joining the Drama Club?
+   - How do I become a part of the Drama Club?
+
 #69
-- intent: instructor_Hassan_Kanj
+- intent: join_music_club
   examples: |
-   - Where is the instructor Hassan Kanj office located?
-   - Is there a specific email address I should use to contact the instructor Hassan Kanj?
-   - What department does the instructor Hassan Kanj belong to?
+   - How can I join the Music Club?
+   - What steps do I need to take to become a member of the Music Club?
+   - Where can I find information about joining the Music Club?
+   - What is the process for joining the Music Club?
+   - How do I become a part of the Music Club?
+   - Is there a specific procedure for joining the Music Club?
+
+#70
+- intent: join_photography_club
+  examples: |
+   - How can I join the Photography Club?
+   - What steps do I need to follow to become a member of the Photography Club?
+   - Where can I find information on joining the Photography Club?
+   - What is the process for joining the Photography Club?
+   - How do I become a member of the Photography Club?
+   - Is there a specific procedure I need to follow to join the Photography Club?
+
+#71
+- intent: join_speech_communication_club
+  examples: |
+   - How can  I join the Speech & Communication Club?
+   - What are the steps for becoming a member of the Speech & Communication Club?
+   - Where can I find information on joining the Speech & Communication Club?
+   - What is the process for joining the Speech & Communication Club?
+   - How do I become a member of the Speech & Communication Club?
+   - Is there a specific procedure I need to follow to join the Speech & Communication Club?
+
+#72
+- intent: art_club_location 
+  examples: |
+   - Where is the art club located?
+   - Where can I find the art club on campus?
+   - Where is the physical location of the art club?
+   - What is the address of the art club?
+   - In which building or area is the art club situated?
+
+#73
+- intent: book_club_location
+  examples: |
+   - Where is the Book Club located?
+   - Where can I find the Book Club?
+   - What is the location of the Book Club?
+   - Where is the Book Club situated?
+   - In what place can I locate the Book Club?
+   -  What is the Book Club's whereabouts?
+
+#74
+- intent: drama_club_location
+  examples: |
+   - Where is the Drama Club located?
+   - What is the location of the Drama Club?
+   - Where can I find the Drama Club?
+   - In what place is the Drama Club situated?
+   - Where is the Drama Club situated?
+   - What is the whereabouts of the Drama Club?
+
+#75
+- intent: music_club_location
+  examples: |
+   - Where is the Music Club located?
+   - What is the location of the Music Club?
+   - Where can I find the Music Club?
+   - In what place is the Music Club situated?
+   - Where is the Music Club situated?
+   - What is the whereabouts of the Music Club?
+   
+#76
+- intent: photo_club_location
+  examples: |
+   - Where is the Photography Club located?
+   - What is the location of the Photography Club?
+   - Where can I find the Photography Club?
+   - In what place is the Photography Club situated?
+   - Where is the Photography Club situated?
+   - What is the whereabouts of the Photography Club?
+   
+#77
+- intent: speech_communication_club_location
+  examples: |
+   - Where is the Speech & Communication Club?
+   - What is the location of the Speech & Communication Club?
+   - Where can I find the Speech & Communication Club?
+   - In what place is the Speech & Communication Club situated?
+   - Where is the Speech & Communication Club situated?
+   - What is the whereabouts of the Speech & Communication Club?
+
+#78
+- intent: art_club_info
+  examples: |
+   - Can I have information about the Art Club?
+   - Could you provide details about the Art Club? 
+   - May I get information regarding the Art Club?
+   - Could you share some insights about the Art Club?
+   - Would you mind giving me some information about the Art Club?
+   - Can you provide details about the Art Club, please?
+
+#79
+- intent: book_club_info
+  examples: |
+   - Can I have information about the Book Club?
+   - Could you please provide information about the Book Club?
+   - May I obtain information regarding the Book Club?
+   - Could you share details about the Book Club?
+   - Would you mind giving me some information about the Book Club?
+   - Can you provide information about the Book Club, please?
+
+#80
+- intent: drama_club_info
+  examples: |
+   - Can I have information about the Drama Club?
+   - Could you please provide details about the Drama Club? 
+   - May I obtain information regarding the Drama Club?
+   - Could you share details about the Drama Club?
+   - Would you mind giving me some information about the Drama Club?
+   - Can you provide information about the Drama Club, please?
+
+#81
+- intent: music_club_info
+  examples: |
+   - Can I have information about the Music Club?
+   - May I request information about the Music Club?
+   - Could you please provide details about the Music Club?
+   - I would like to know more about the Music Club, could you provide information?
+   - Is it possible to obtain information about the Music Club?
+   - Can you share details about the Music Club?
+   
+#82
+- intent: photo_club_info
+  examples: |
+   - Can I have information about the Photography Club?
+   - Could you please provide information about the Photography Club?
+   - May I request details regarding the Photography Club?
+   - Is it possible to obtain information about the Photography Club?
+   - Could you share some information about the Photography Club? 
+   - I would like to know more about the Photography Club. Could you provide details?
+   
+#83
+- intent: speech_communication_club_info
+  examples: |
+   - Can I have information about the Speech & Communication Club?
+   - Could you please provide information about the Speech & Communication Club?
+   - May I request details regarding the Speech & Communication Club?
+   - Is it possible to obtain information about the Speech & Communication Club?
+   - Could you share some information about the Speech & Communication Club?
+   - I would like to know more about the Speech & Communication Club. Could you provide details?
+   
+#84
+- intent: UG_2023_2024_calendar
+  examples: |
+   - Can I have the academic calendar of UG 2023-2024?
+   - Could you please provide the academic calendar for undergraduate students for the academic year 2023-2024?
+   - May I request the academic calendar for UG students for the academic year 2023-2024?
+   - Is it possible to obtain the academic calendar for undergraduate students for the academic year 2023-2024?
+   - Could you share the academic calendar for UG students for the academic year 2023-2024?
+   - I would like to have access to the academic calendar for undergraduate students for the academic year 2023-2024. Could you provide it?
+   
+#85
+- intent: EPP_2023_2024_calendar
+  examples: |
+   - Can I have the academic calendar of EPP 2023-2024?
+   - Could you please provide the academic calendar for the English Preparatory Program EPP for the academic year 2023-2024?
+   - May I request the academic calendar for the English Preparatory Program EPP for the academic year 2023-2024?
+   - Is it possible to obtain the academic calendar for the English Preparatory Program EPP for the academic year 2023-2024?
+   - Could you share the academic calendar for the English Preparatory Program EPP for the academic year 2023-2024?
+   - I would like to have access to the academic calendar for the English Preparatory Program EPP for the academic year 2023-2024. Could you provide it?
+
+#86
+- intent: attendance_policy
+  examples: |
+   - Can i have the attendance policy?
+   - Could you please provide me with the attendance policy?
+   - May I request a copy of the attendance policy?
+   - Is it possible to obtain the attendance policy?
+   - Could you share the attendance policy with me?
+   - I would like to have access to the attendance policy. Could you provide it?
+
+#87
+- intent: examination_guidelines
+  examples: |
+   - Can I know the students examination guidelines?
+   - Could you please provide me with the guidelines for student examinations?
+   - May I request the guidelines for student examinations?
+   - Is it possible to obtain the student examination guidelines?
+   - Could you share the examination guidelines for students with me?
+   - I would like to know the guidelines for student examinations. Could you provide them?
+
+#89
+- intent: med_examination_form
+  examples: |
+   - Can I have the medical examination form?
+   - Could you please provide me with the medical examination form?
+   - May I request the medical examination form?
+   - Is it possible to obtain the medical examination form?
+   - Could you share the medical examination form with me?
+   - I would like to have access to the medical examination form.
