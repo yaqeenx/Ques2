@@ -90,911 +90,891 @@ nlu:
     - am I talking to a bot?
     - am I talking to a human?
 #1
-# - intent: AUM_student_ID
-#   examples: |
-#     - What should I do if I lose my ID?
-#     - Are there any fees for issuing a replacement for a lost ID?
-#     - What if I lose my ID more than once?
-#     - can someone take my ID and enter the campus with it?
-# #2
-# - intent: AUM_clinic
-#   examples: |
-#     - Is there a central clinic in AUM?
-#     - Where is the AUM Central Clinic located?
-#     - What services does the clinic provide?   
-# #3
-# - intent: AUM_email_for_the_university_student
-#   examples: |
-#     - Is there any way to communicate between the student and the university?
-#     - How can I change the password for my email?
-# #4
-# - intent: class_standing
-#   examples: |
-#     - If I'm a freshman,what is the total number of hours i have earned and the minimum GPA required?
-#     - If I'm a sophomore,what is the total number of hours i have earned and the minimum GPA required?
-#     - If I'm a junior,what is the total number of hours i have earned and the minimum GPA required?
-#     - If I'm a senior,what is the total number of hours i have earned and the minimum GPA required?
-# #5
-# - intent: graduation_with_honors
-#   examples: |
-#     - How can I graduate with honors?
-#     - Are there criteria for graduating with honors?
-#     - Can I graduate with honors if I get a grade less than C?
-#     - What is the cumulative GPA required to graduate with honors?
-#     - If I committed conduct violation, can I graduate with honors?
-# #6
-# - intent: about_AUM
-#   examples: |
-#     - I want to know more about the AUM?
-#     - How many colleges does the AUM include?
-#     - What distinguishes the AUM?
-# #7
-# - intent: changing_major_from_business_to_engineering
-#   examples: |
-#     - Can I change my major?
-#     - What are the requirements for changing majors from business administration to engineering?
-#     - What is the total credit limit for changing majors?
-#     - What is the GPA required to change major?
-# #8
-# - intent: writing_lab
-#   examples: |
-#     - What is the writing lab at AUM?
-#     - Is the writing lab for all students?
-#     - Does the writing lab help me if I have a presentation or other projects?
-#     - How can I contact the writing lab?
-# #9
-# - intent: AUM_registration
-#   examples: |
-#     - How can I register courses?
-#     - Can I register less than 12 credits?
-#     - What is the minimum credits that I must register for the course?
-#     - When can I add or drop the course?
-#     - Can I add a course after the end of the add and drop period?
-#     - Can I change the section?
-#     - If I have a subject on academic probation,how many credits can I register?
-# #10
-# - intent: final_exam
-#   examples: |
-#     - how can i chech my final exam shedule?
-#     - i want to know what to do if i miss the final exam?
-#     - where can i submit the paperwork to apply for final makeup?
-#     - what should i bring for the final exam?
-#     - how do i find the final exam location?
-#     - can i enter the final exam if iam late?
-# #11
-# - intent: AUM_library
-#   examples: |
-#     - Is there a library at the university?
-#     - When does the library open?
-#     - Will the library be open during Ramadan?
-#     - How can we contact the library?
-#     - How can I request a book that is not available in the library's catalog?
-#     - Are there any upcoming events or workshops hosted by the library that can help me improve my research and study skills?
-#     - What are the library's policies regarding borrowing materials, including loan periods, renewal options, and any associated fees or fines?
-# #12
-# - intent: AUM_restaurant
-#   examples: |
-#     - Are there restaurants on campus?
-#     - What types of restaurants are available on campus?
-#     - Are there healthy options available in restaurants?
-#     - Are there designated places for students who want to eat in restaurants?
-# #13    
-# - intent: ATM_service
-#   examples: |
-#     - Is there an ATM service at the university?
-#     - Can ATM cards from different banks be used?
-#     - Are cash deposit services available at ATMs?
-# #14
-# - intent: tawteen_career_center
-#   examples: |
-#     - What services does the Tawteen Career Center offer to help students?
-#     - What is the role of the Tawteen Career Center at the university?
-#     - What services does the Tawteen Career Center provide to students and graduates?
-#     - How can students access the Tawteen Career Center?
-#     - Are job and internship opportunities provided through the Tawteen Career Center?
-#     - Are recruitment events and events organized by the Tawteen Career Center?
-# #15
-# - intent: emergency_cases
-#   examples: |
-#     - What should I do if I have an accident in a parking area?
-#     - How can I access assistance in case of an accident or emergency within the campus?
-#     - Are there alarm and evacuation systems in place within the campus?
-#     - Are there designated assembly points for students and staff during emergencies?
-#     - How is communication with students and staff handled during emergencies?
-# #16
-# - intent: AUM_major
-#   examples: |
-#     - What are the majors available at the university?
-#     - What are the main majors offered by the university?
-#     - Are there programs for both bachelor's and master's degrees in specific fields?
-#     - Can I do research or practical work in my chosen major?
-# #17
-# - intent: computer_engineering
-#   examples: |
-#     - What is computer engineering, and how is it different from other engineering fields?
-#     - What kind of courses will I take as a computer engineering student?
-#     - Are there any clubs or organizations specifically for computer engineering students?
-#     - Are there any networking events or career fairs specifically for computer engineering students? 
-# #18!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-# ##################################################################
-# #####################################################!!!!!!!!!!!!!!!
-# - intent: electrical_engineering
-#   examples: |
-#     - What kind of courses will I take in an electrical engineering program?
-#     - How long does it typically take to complete a degree in electrical engineering?
-#     - Are there any specific prerequisites or recommended background knowledge for entering an electrical engineering program?
-#     - What career opportunities are available for graduates with a degree in electrical engineering?
-#     - What kind of software or tools do electrical engineering students typically use in their coursework?
-#     - How many credits are required to complete a degree in electrical engineering?
-# #19
-# - intent: clinic_services
-#   examples: |
-#     - which services are offered at the central clinic located on the AUM Campus?
-#     - what types of services does the central clinic at AUM Campus deliver?
-#     - what are the services available at the central clinic situated on the AUM Campus?
-#     - could you outline the services provided by the central clinic on the AUM Campus?
-#     - what kind of healthcare services does the central clinic offer at the AUM Campus?
-#     - what services does the central clinic on AUM Campus provide?
-# #20
-# - intent: clinic_location
-#   examples: |
-#     - Where exactly can the AUM Central Clinic be found?
-#     - What is the precise address of the Central Clinic on the AUM campus?
-#     - Where is the physical location of the Central Clinic within the AUM campus?
-#     - Can you provide details about the whereabouts of the AUM Central Clinic?
-# #21
-# - intent: sports_center
-#   examples: |
-#     - What services does the Sports Center at AUM provide?
-#     - What amenities and services are available at the Sports Center on the AUM campus?
-#     - Could you outline the offerings provided by the Sports Center at AUM?
-#     - What types of services can one expect from the Sports Center located at AUM?
-#     - What facilities and services are offered at the AUM Sports Center?
-#     - What specific services are available for students at the AUM Sports Center?
-# #22
-# - intent: it_services
-#   examples: |
-#     - What IT services are provided to students at AUM?
-#     - What technological services are extended to students enrolled at AUM?    
-#     - Could you elaborate on the IT services accessible to students at AUM?    
-#     - What specific IT provisions are offered to students attending AUM?
-#     - What are the available IT support services catered to students of AUM?
-#     - What IT resources and assistance are provided for students at AUM?
-# #23  
-# - intent: aum_website
-#   examples: |
-#     - What information does the AUM website provide to students?
-#     - What kind of information does the AUM website offer to its students?
-#     - Could you specify the information available to students on the AUM website?
-#     - What types of student-oriented information can be found on the AUM website?
-#     - What specific resources and details are provided for students on the AUM website?
-#     - What kind of student support and resources does the AUM website offer?
-# #24
-# - intent: portal_purpose
-#   examples: |
-#     - What is the purpose of the MyAUM portal?
-#     - What function does the MyAUM portal fulfill?
-#     - What is the objective of implementing the MyAUM portal?
-#     - What role does the MyAUM portal play?
-#     - What is the intent behind the creation of the MyAUM portal?
-#     - What does the MyAUM portal aim to achieve?
-# #25
-# - intent: aum_Moodle
-#   examples: |
-#     - What does Moodle entail?
-#     - What is the function of Moodle?
-#     - What is Moodle?
-#     - How would you define Moodle?    
-#     - What purpose does Moodle serve?
-#     - What is the role of Moodle?
-# #26
-# - intent: aum_banner
-#   examples: |
-#     - How is Banner utilized at AUM?
-#     - What functions does Banner serve at AUM?
-#     - What is the purpose of Banner at AUM?
-#     - What is Banner used for?
-# #27   
-# - intent: aum_communicate
-#   examples: |
-#     - How does AUM communicate important information to students?
-#     - By what means does AUM relay crucial information to students?
-#     - How does AUM disseminate important information to students?
-#     - What methods does AUM utilize to communicate essential information to students?
-#     - How does AUM ensure students receive important information?
-#     - Through what channels does AUM convey significant information to students?
-# #28   
-# - intent: parking_services
-#   examples: |
-#     - What parking services are available to students at AUM?
-#     - What parking facilities are provided to students at AUM?
-#     - What parking options are available to students at AUM?
-#     - How does AUM accommodate student parking?
-#     - What parking services does AUM extend to students?
-#     - What are the student parking arrangements at AUM?
-# #29
-# - intent: students_identified
-#   examples: |
-#     - How are students identified at AUM?
-#     - How are students distinguished at AUM?
-#     - What methods does AUM use to identify students?
-#     - By what means are students recognized at AUM?
-#     - What identification processes are in place for students at AUM?
-#     - How does AUM differentiate its students?
-# #30
-# - intent: tutoring_center
-#   examples: |
-#     - What services are offered by the Tutoring Center at AUM?
-#     - What assistance does the Tutoring Center offer at AUM?
-#     - What services does the Tutoring Center provide at AUM?
-#     - How does the Tutoring Center support students at AUM?
-#     - What resources are available at the Tutoring Center at AUM?
-#     - What help can students receive from the Tutoring Center at AUM?
-# #31
-# - intent: innovation_center
-#   examples: |
-#    - What are the Innovation Centers at AUM?
-#    - What do the Innovation Centers at AUM entail?
-#    - How are the Innovation Centers defined at AUM?
-#    - What services are provided by the Innovation Centers at AUM?
-#    - What is the function of the Innovation Centers at AUM?
-#    - What purpose do the Innovation Centers serve at AUM?
-# #32
-# - intent: Ask_about_elearning
-#   examples: |
-#     - How do I start?
-#     - How many courses can I take at one time?
-#     - Are reports available to show my progress or my completion of a course?
-#     - What score is needed for me to complete a course?
-#     - Can I retake the test to improve my score and if so, how many times can I retake it?
-
-# #33
-# - intent: AUM_calendar
-#   examples: |
-#     - What is the academic calendar for the university, including important dates such as the start and end of each semester?
-#     - How do I access the university's online academic calendar and where can I find information about class schedules?
-#     - How can I stay updated on any changes or updates to the university calendar?
-
-# #34
-# - intent: AUM_subject
-#   examples: |
-#     - What subjects are offered in the AUM program?
-#     - Can you tell me about the courses available at AUM?
-#     - I'm interested in learning more about the subjects taught at AUM.
-#     - What are the major subjects available at AUM?
-#     - Could you provide information about the academic disciplines at AUM?
-#     - Tell me about the curriculum at AUM.
-#     - What kind of subjects can I expect to study if I enroll at AUM?
-#     - Can you list some of the subjects covered in the AUM curriculum?
-#     - I'd like to know more about the subjects I can choose from at AUM.
-# #35
-# - intent: grading_system
-#   examples: |
-#    - How is GPA calculated at the university?
-#    - How is GPA determined for students at the university?
-#    - What method does the university use to compute GPA?
-# #36
-# - intent: campus_facilities
-#   examples: |
-#     - What dining options are available on campus?
-#     - Where is the nearest gym or fitness center located?
-#     - Can you tell me about the library facilities?
-#     - How can I access computer labs or printing services?
-#     - What medical services are provided on campus?
-#     - Where can I find information about parking facilities?
-#     - Are there study rooms or group collaboration spaces available?
-# #37
-# - intent: business_major
-#   examples: |
-#     - What are the core courses required for the business major?
-#     - Can you provide information about the faculty members in the business department?
-#     - What career opportunities are available for business majors?
-#     - Are there any internships or experiential learning opportunities for business students?
-#     - What specializations or concentrations are offered within the business major?
-#     - Are there study abroad opportunities for business students?
-#     - Can you provide information about the alumni network for business majors?
-#     - How can I get involved in business-related research projects?  
-# #38
-# - intent: attendance_dismissal_request
-#   examples: |
-#     - How do I submit an attendance dismissal request to the university?
-#     - What are the requirements for requesting attendance dismissal?
-#     - Where can I find the form for requesting attendance dismissal?
-#     - Is there a deadline to submit a request to withdraw from attendance?
-#     - Can I submit medical documents as part of my absence request?
-#     - How will I be notified of the status of my absence request?
-# #39
-# - intent: medical_examination_submission
-#   examples: |
-#     - How can I submit my medical examination results to the university?
-#     - When should I submit the medical examination to the university?
-#     - What are the procedures for submitting the medical examination to the university?
-#     - Is there a deadline for submitting the medical examination?
-#     - What documents are required to submit the medical examination?
-#     - Do I need to bring the medical examination results in person or can they be sent electronically?
-#     - How can I ensure that the university receives my medical examination results?
-#     - Can I upload my medical examination results to the student portal?
-# #40
-# - intent: lost_item_on_campus
-#   examples: |
-#     - How do I report a lost item on campus?
-#     - Where should I go if I've lost something on campus?
-#     - What information should I provide when reporting a lost item?
-#     - What should I do if I find a lost item on campus?
-# #41
-# - intent: advising_services
-#   examples: |
-#     - What services does the advising office offer?
-#     - Can you tell me about the advising services available?
-#     - What kind of assistance can I get from the advising office?
-# #42
-# - intent: schedule_advising_appointment
-#   examples: |
-#     - How can I schedule an appointment with my advisor?
-#     - What is the process to book an advising appointment?
-#     - Can you help me set up a meeting with an advisor?
-# #43
-# - intent: advising_hours
-#   examples: |
-#     - When is the advising office open?
-#     - What are the office hours for the advising department?
-#     - What time can I visit the advising office?
-# #44
-# - intent: reset_password
-#   examples: |
-#     - How do I reset my password if I've forgotten it?
-#     - What should I do if I don't receive the password reset email or SMS?
-# #45
-# - intent: library_code_of_conduct
-#   examples: |
-#     - What are the rules and guidelines for behavior in the library?
-#     - Are there any particular guidelines I need to follow when using the library?
-#     - What are the library's policies?
-# #46
-# - intent: student_affairs
-#   examples: |
-#     - What services does the student affairs department offer to support students?
-#     - Where is the student affairs department located on campus?
-#     - What are the office hours for the student affairs department?
-#     - How can students contact the student affairs office?
-# #47
-# - intent: mobile_app
-#   examples: |
-#     - Can I use the university's mobile app to check my class schedule?
-#     - Does the university's mobile app offer a campus map feature?
-#     - Can I receive notifications about important university announcements through the mobile app?
-#     - Is there a section in the mobile app where I can access library resources?
-# #48
-# - intent: midterm_and_final_exams_guidelines
-#   examples: |
-#     - What are the guidelines for scheduling midterm exams?
-#     - What are the guidelines for scheduling final exams?
-#     - Are there guidelines for the exam? 
-# #49
-# - intent: civil_engineering
-#   examples: |
-#     - How many credits does the civil engineering major typically require?
-#     - Could you outline the core courses required for the civil engineering major, as well as any elective options available to students?
-#     - Are there any student clubs or organizations specifically for civil engineering?
-#     - I want to know more about the specialty of civil engineering?
-#     - Is there a sample plan of study for civil engineering?
+- intent: AUM_student_ID
+  examples: |
+    - What should I do if I lose my ID?
+    - What should I do if I can't find my student ID?"
+    - Are there any fees for issuing a replacement for a lost ID?
+    - What if I lose my ID more than once?
+    - can someone take my ID and enter the campus with it?
+    - AUM student id
+    - Why do I need a student ID?
+    - Where can I get my student ID?
+    - What information is on my student ID?
+    - ID card
     
-# #50
-# - intent: industrial_engineering
-#   examples: |
-#    - How many credits does the industrial engineering major typically require?
-#    - Is there a sample plan of study for industrial engineering?
-#    - I want to know more about the specialty of industrial engineering?
-#    - Could you outline the core courses required for the industrial engineering major?
-#    - Can you list the basic classes needed to major in industrial engineering?
-   
-# #51
-# - intent: chemical_engineering
-#   examples: |
-#    - How many credits does the chemical engineering major require?
-#    - Is there a sample plan of study for chemicall engineering?
-#    - I want to know more about the specialty of chemical engineering?
-#    - Could you outline the core courses required for the chemical engineering major?
-#    - Can you list the basic classes needed to major in chemical engineering?
-   
-# #52
-# - intent: mechanical_engineering
-#   examples: |
-#    - I want to know more about the specialty of mechanical engineering?
-#    - How many credits does the mechanical engineering major require?
-#    - Is there a sample plan of study for mechanical engineering?
-#    - Could you outline the core courses required for the mechanical engineering major?
-#    - Can you list the basic classes needed to major in mechanical engineering?
-   
-# #53
-# - intent: Car_Decal
-#   examples: |
-#    - What is the process for obtaining a parking decal at our university?
-#    - How do I get a parking decal for my car on campus?
-#    - what documentation is required for obtaining a parking decal?
-#    - Can I choose where to park with my parking decal?
-#    - What happens if I don't have a parking decal?
-#    - Can I share my parking sticker with a friend?
-#    - How does the university manage parking for students with disabilities?
-#    - How will the university inform me about changes to parking rules?
-# #54
-# - intent: Parking_Rules_and_Regulations
-#   examples: |
-#    - What are the rules for parking on campus?
-#    - Where can I find information about parking regulations?
-#    - Are there specific times when parking is allowed or prohibited?
-#    - Are there specific times when parking is allowed or prohibited?
-# #55
-# - intent: complaints 
-#   examples: |
-#    - How can students file a complaint about parking issues?
-#    - Is there a designated office or department for complaints?
-#    - What should students do if they encounter issues ?
-#    - How can students file a complaint about campus facilities maintenance?
-#    - What is the process for reporting issues with campus Wi-Fi or internet?
-#    - Where can students find information about lodging complaints regarding academic services?
-#    - Who should students contact if they have concerns about classroom equipment?
-# #56
-# - intent: registration_guide
-#   examples: |
-#    - How can I find the registration guide at my university?
-#    - Are there any tutorials or guides available to help me with the registration process?
-#    - Is the registration guide available online?
-   
-# #57
-# - intent: AUM_soft_skills
-#   examples: |
-#    - what is soft skills e-courses platform at aum?
-#    - Are there any workshops or programs available at AUM to help improve my soft skills?
-#    - How can I access the soft skills platform?
-# #58
-# - intent: AUM_book_store
-#   examples: |
-#    - Where is the bookstore located on campus?
-#    - What are the bookstore hours?
-#    - Does the bookstore sell supplies like notebooks, pens, and folders?
-# #59
-# - intent: robotics_research_center
-#   examples: |
-#    - What are the goals of the robotics research center?
-#    - How does the center aim to support student and research in robotics?
-#    - Does therobotics research center offer interdisciplinary research programs?
-# #60
-# - intent: nanotechnology_center
-#   examples: |
-#    - What is the aims of the nanotechnology center?
-#    - How does the center contribute to nanotechnology research?
-#    - Why was the nanotechnology center established?
-# #61
-# - intent: toefl_and_ielts
-#   examples: |
-#    - What is the difference between TOEFL and IELTS?
-#    - What is the format of the TOEFL/IELTS exam?
-#    - What score do I need to pass the TOEFL/IELTS exam?
-#    - Can the EPP student register for the TOEFL/IELTS test?
-# #62
-# - intent: freezing_semester
-#   examples: |
-#    - What does it mean to freeze a semester?
-#    - Can I freeze my semester multiple times?
-#    - How does the semester freeze affect the graduation timeline?
-# #63
-# - intent: official_withdrawal_from_AUM
-#   examples: |
-#    - How do I officially withdraw from AUM?
-#    - Is there a formal withdrawal form?
-#    - Where can I submit the official withdrawal form?
-#    - What grade will I get if I withdraw from the university?
-#    - If I officially withdraw from the university, can I apply again?
-# #64
-# - intent: cancelling_the_withdrawal_request_during_the_semester 
-#   examples: |
-#    - Is there a deadline for canceling my withdrawal request?
-#    - Can I cancel my withdrawal request multiple times in the same semester?
-#    - What is the overall cumulative GPA required to withdraw from withdrawal?
-# #65
-# - intent: cheating
-#   examples: |
-#    - What is cheating?
-#    - What are the consequences of being caught cheating?
-#    - What exactly is considered cheating?
-# #66
-# - intent: plagiarism 
-#   examples: |
-#    - What is plagiarism?
-#    - What steps can i take to avoid plagiarism?
-# #67
-# - intent: violation_of_dress_code
-#   examples: |
-#    - What is considered a violation of the dress code?
-#    - How can I know if my outfit follows the dress code guidelines?
-# #68
-# - intent: no_smoking_policy
-#   examples: |
-#    - Where are the designated smoking areas on campus?
-#    - Where can students smoke according to the policy?
-# #69
-# - intent: instructor_Hassan_Kanj
-#   examples: |
-#    - Where is the instructor Hassan Kanj office located?
-#    - Is there a specific email address I should use to contact the instructor Hassan Kanj?
-#    - What department does the instructor Hassan Kanj belong to?
+#2
+- intent: AUM_clinic
+  examples: |
+    - Is there a central clinic in AUM?
+    - whers is the clinic?
+    - aum clinic
+    - Where is the AUM Central Clinic located?
+    - What services does the clinic provide? 
+    - Health services
+    - Central Clinic
+    - What services are offered at the AUM clinic?
+    - clinic on campus
+    - What are the operating hours of the AUM clinic?
+#3
+- intent: AUM_email_for_the_university_student
+  examples: |
+    - Is there any way to communicate between the student and the university?
+    - How can I change the password for my email?
+    - aum email
+    - Student email
+    
+#4
+- intent: class_standing
+  examples: |
+    - If I'm a freshman,what is the total number of hours i have earned and the minimum GPA required?
+    - If I'm a sophomore,what is the total number of hours i have earned and the minimum GPA required?
+    - If I'm a junior,what is the total number of hours i have earned and the minimum GPA required?
+    - If I'm a senior,what is the total number of hours i have earned and the minimum GPA required?
+    - class standing 
+    - freshman
+    - sophomore
+    - junior
+    - senior
+    - total hours
+    - GPA required
+    - minimum GPA 
+#5
+- intent: graduation_with_honors
+  examples: |
+    - How can I graduate with honors?
+    - Are there criteria for graduating with honors?
+    - Can I graduate with honors if I get a grade less than C?
+    - What is the cumulative GPA required to graduate with honors?
+    - If I committed conduct violation, can I graduate with honors?
+    - honors
+    - graduation
+    - graduation with honors
+    - Is there a minimum GPA requirement for graduating with honors?
+    - What does it mean to graduate with honors?
+    - How can I qualify for graduation with honors?
+    - 
+#6
+- intent: about_AUM
+  examples: |
+    - I want to know more about the AUM?
+    - AUM 
+    - How many colleges does the AUM include?
+    - What distinguishes the AUM?
+    - aum colleges
+    - aum kuwait
+    - can you tell me about AUM?
+    - about aum
+    - higher education
+    - When was the AUM established?
+#7
+- intent: changing_major_from_business_to_engineering
+  examples: |
+    - Can I change my major?
+    - What are the requirements for changing majors from business administration to engineering?
+    - What is the total credit limit for changing majors?
+    - What is the GPA required to change major?
+    - how can i change my major?
+    - change major
+    - from business to engineering 
+    - changing requirements
+    - the total credit for changing major
+    - GPA required
+    - What's the process for changing my major to engineering?
+    - Are there any requirements for changing?
+#8
+- intent: writing_lab
+  examples: |
+    - What is the writing lab at AUM?
+    - Is the writing lab for all students?
+    - Does the writing lab help me if I have a presentation or other projects?
+    - How can I contact the writing lab?
+    - writing lab
+    - writing lab email
+    - Writing center
+    - Writing assistance
+    - Writing support
+#9
+- intent: AUM_registration
+  examples: |
+    - How can I register courses?
+    - Can I register less than 12 credits?
+    - What is the minimum credits that I must register for the course?
+    - When can I add or drop the course?
+    - Can I add a course after the end of the add and drop period?
+    - Can I change the section?
+    - If I have a subject on academic probation,how many credits can I register?
+    - aum registration
+    - Course registration
+    - Add/drop period
+    - the minimum credits for registration 
+#10
+- intent: final_exam
+  examples: |
+    - how can i chech my final exam shedule?
+    - i want to know what to do if i miss the final exam?
+    - where can i submit the paperwork to apply for final makeup?
+    - what should i bring for the final exam?
+    - how do i find the final exam location?
+    - can i enter the final exam if iam late?
+    - final exam
+    - exam schedule
+    - exam room
+    - When are the final exams scheduled?
+    - How can I prepare for my final exams?
+    - final location
+    - prepare for final exams?
+#11
+- intent: AUM_library
+  examples: |
+    - Is there a library at the university?
+    - When does the library open?
+    - Will the library be open during Ramadan?
+    - How can we contact the library?
+    - aum library
+    - where is the library?
+    - How can I request a book that is not available in the library's catalog?
+    - Are there any upcoming events or workshops hosted by the library that can help me improve my research and study skills?
+    - What are the library's policies regarding borrowing materials, including loan periods, renewal options, and any associated fees or fines?
+    - library workshop
+#12
+- intent: AUM_restaurant
+  examples: |
+    - Are there restaurants on campus?
+    - where is the restaurant?
+    - aum restaurant
+    - Food service
+    - What types of restaurants are available on campus?
+    - Are there healthy options available in restaurants?
+    - Are there designated places for students who want to eat in restaurants?
+    - restaurants places?
+    - Campus food
+    - In which building is the restaurant?
+#13    
+- intent: ATM_service
+  examples: |
+    - Is there an ATM service at the university?
+    - where is the atm?
+    - atm service
+    - Can ATM cards from different banks be used?
+    - Are cash deposit services available at ATMs?
+    - In which building is the atm?
+    - ATM location
+    - Banking services
+    - Cash withdrawal or Deposit
+#14
+- intent: tawteen_career_center
+  examples: |
+    - What services does the Tawteen Career Center offer to help students?
+    - What is the role of the Tawteen Career Center at the university?
+    - What services does the Tawteen Career Center provide to students and graduates?
+    - How can students access the Tawteen Career Center?
+    - Are job and internship opportunities provided through the Tawteen Career Center?
+    - Are recruitment events and events organized by the Tawteen Career Center?
+    - tawteen career center
+    - Job fairs
+    - Internships
+    - employment services
+    - can i access the Tawteen Career Center?
 
+#15
+- intent: emergency_cases
+  examples: |
+    - What should I do if I have an accident in a parking area?
+    - How can I access assistance in case of an accident or emergency within the campus?
+    - Are there alarm and evacuation systems in place within the campus?
+    - Are there designated assembly points for students and staff during emergencies?
+    - How is communication with students and staff handled during emergencies?
+    - emergency cases
+    - emergency response
+    - How can I contact security?
+    - emergency contact numbers
+#16
+- intent: AUM_major
+  examples: |
+    - What are the majors available at the university?
+    - aum major 
+    - What are the main majors offered by the university?
+    - Are there programs for both bachelor's and master's degrees in specific fields?
+    - Can I do research or practical work in my chosen major?
+    - Degree programs
+    - Majors
+    - Academic programs
+
+#17
+- intent: computer_engineering
+  examples: |
+    - What is computer engineering, and how is it different from other engineering fields?
+    - computer engineering
+    - Digital systems
+    - computer courses
+    - What kind of courses will I take as a computer engineering student?
+    - Are there any clubs or organizations specifically for computer engineering students?
+    - career fairs for computer engineering students
+    - Are there any networking events or career fairs specifically for computer engineering students? 
+    - programming
+    - software engineering
+    - total Minimum Credits Required for Graduation
+    - what is the total credit for computer?
+#18
+- intent: electrical_engineering
+  examples: |
+    - What kind of courses will I take in an electrical engineering program?
+    - How long does it typically take to complete a degree in electrical engineering?
+    - Are there any specific prerequisites or recommended background knowledge for entering an electrical engineering program?
+    - What career opportunities are available for graduates with a degree in electrical engineering?
+    - What kind of software or tools do electrical engineering students typically use in their coursework?
+    - How many credits are required to complete a degree in electrical engineering?
+    - electrical engineering
+    - electrical program
+    - what is the total credit for electrical?
+    - Electronics
+    - Power systems
+#19
+- intent: clinic_services
+  examples: |
+    - which services are offered at the central clinic located on the AUM Campus?
+    - what types of services does the central clinic at AUM Campus deliver?
+    - what are the services available at the central clinic situated on the AUM Campus?
+    - could you outline the services provided by the central clinic on the AUM Campus?
+    - what kind of healthcare services does the central clinic offer at the AUM Campus?
+    - what services does the central clinic on AUM Campus provide?
+    - clinic services
+    - central clinic
+#20
+- intent: clinic_location
+  examples: |
+    - Where exactly can the AUM Central Clinic be found?
+    - clinic location
+    - where is the clinic?
+    - What is the precise address of the Central Clinic on the AUM campus?
+    - Where is the physical location of the Central Clinic within the AUM campus?
+    - Can you provide details about the whereabouts of the AUM Central Clinic?
+#21
+- intent: sports_center
+  examples: |
+    - What services does the Sports Center at AUM provide?
+    - What amenities and services are available at the Sports Center on the AUM campus?
+    - Could you outline the offerings provided by the Sports Center at AUM?
+    - What types of services can one expect from the Sports Center located at AUM?
+    - What facilities and services are offered at the AUM Sports Center?
+    - What specific services are available for students at the AUM Sports Center?
+    - sports center
+    - aum sports
+    - where is the sports center?
+#22
+- intent: it_services
+  examples: |
+    - What IT services are provided to students at AUM?
+    - What technological services are extended to students enrolled at AUM?    
+    - Could you elaborate on the IT services accessible to students at AUM?    
+    - What specific IT provisions are offered to students attending AUM?
+    - it services
+    - aum it
+    - IT
+    - What are the available IT support services catered to students of AUM?
+    - What IT resources and assistance are provided for students at AUM?
+#23  
+- intent: aum_website
+  examples: |
+    - What information does the AUM website provide to students?
+    - What kind of information does the AUM website offer to its students?
+    - Could you specify the information available to students on the AUM website?
+    - What types of student-oriented information can be found on the AUM website?
+    - What specific resources and details are provided for students on the AUM website?
+    - What kind of student support and resources does the AUM website offer?
+    - AUM website
+    - website info
+    - Homepage for aum website 
+#24
+- intent: portal_purpose
+  examples: |
+    - What is the purpose of the MyAUM portal?
+    - What function does the MyAUM portal fulfill?
+    - What is the objective of implementing the MyAUM portal?
+    - What role does the MyAUM portal play?
+    - What is the intent behind the creation of the MyAUM portal?
+    - What does the MyAUM portal aim to achieve?
+    - portal purpose
+    - AUM portal
+    - links aum portal
+    - what is the aum portal?
+
+#25
+- intent: aum_Moodle
+  examples: |
+    - What does Moodle entail?
+    - What is the function of Moodle?
+    - What is Moodle?
+    - How would you define Moodle?    
+    - What purpose does Moodle serve?
+    - What is the role of Moodle?
+    - aum moodle
+    - Moodle webpage
+    - what is the moodle?
+    - moodle links
+#26
+- intent: aum_banner
+  examples: |
+    - How is Banner utilized at AUM?
+    - What functions does Banner serve at AUM?
+    - What is the purpose of Banner at AUM?
+    - What is Banner used for?
+    - aum banner
+    - what is the banner?
+    - Banner webpage 
+    - banner link
+#27   
+- intent: aum_communicate
+  examples: |
+    - How does AUM communicate important information to students?
+    - By what means does AUM relay crucial information to students?
+    - How does AUM disseminate important information to students?
+    - What methods does AUM utilize to communicate essential information to students?
+    - How does AUM ensure students receive important information?
+    - Through what channels does AUM convey significant information to students?
+    - aum communicate
+    - what is the mean of aum communicate?
+    - communicate info
+#28   
+- intent: parking_services
+  examples: |
+    - What parking services are available to students at AUM?
+    - What parking facilities are provided to students at AUM?
+    - What parking options are available to students at AUM?
+    - How does AUM accommodate student parking?
+    - What parking services does AUM extend to students?
+    - What are the student parking arrangements at AUM?
+    - parking services
+    - student parking
+    - Parking availability
+    - Parking lots
+#29
+- intent: students_identified
+  examples: |
+    - How are students identified at AUM?
+    - How are students distinguished at AUM?
+    - What methods does AUM use to identify students?
+    - By what means are students recognized at AUM?
+    - What identification processes are in place for students at AUM?
+    - How does AUM differentiate its students?
+    - students identified
+    - How does AUM recognize its students?
+    - What methods does AUM employ to distinguish its students?
+#30
+- intent: tutoring_center
+  examples: |
+    - What services are offered by the Tutoring Center at AUM?
+    - What assistance does the Tutoring Center offer at AUM?
+    - What services does the Tutoring Center provide at AUM?
+    - How does the Tutoring Center support students at AUM?
+    - What resources are available at the Tutoring Center at AUM?
+    - What help can students receive from the Tutoring Center at AUM?
+    - tutoring center
+    - what is the tutoring center?
+    - Tutoring services
+    - Academic support
+#31
+- intent: innovation_center
+  examples: |
+   - What are the Innovation Centers at AUM?
+   - What do the Innovation Centers at AUM entail?
+   - How are the Innovation Centers defined at AUM?
+   - What services are provided by the Innovation Centers at AUM?
+   - What is the function of the Innovation Centers at AUM?
+   - What purpose do the Innovation Centers serve at AUM?
+   - innovation center
+   - Research and development
+   - aum innovation
+   - what is the innovation center?
+#32
+- intent: Ask_about_e-learning
+  examples: |
+    - How do I start?
+    - How many courses can I take at one time?
+    - Are reports available to show my progress or my completion of a course?
+    - What score is needed for me to complete a course?
+    - Can I retake the test to improve my score and if so, how many times can I retake it?
+    - e-learning
+    - aum e-learning
+    - what is the e-learning?
+
+#33
+- intent: AUM_calendar
+  examples: |
+    - What is the academic calendar for the university, including important dates such as the start and end of each semester?
+    - How do I access the university's online academic calendar and where can I find information about class schedules?
+    - How can I stay updated on any changes or updates to the university calendar?
+    - Academic calendar
+    - calendar
+    - what is the calendar?
+    - Holidays
+    - how can i access the calendar?
+    - Semester dates
+
+#34
+- intent: AUM_subject
+  examples: |
+    - What subjects are offered in the AUM program?
+    - Can you tell me about the courses available at AUM?
+    - I'm interested in learning more about the subjects taught at AUM.
+    - What are the major subjects available at AUM?
+    - Could you provide information about the academic disciplines at AUM?
+    - Tell me about the curriculum at AUM.
+    - What kind of subjects can I expect to study if I enroll at AUM?
+    - Can you list some of the subjects covered in the AUM curriculum?
+    - I'd like to know more about the subjects I can choose from at AUM.
+    - AUM subject
+    - AUM program
+#35
+- intent: grading_system
+  examples: |
+   - How is GPA calculated at the university?
+   - How is GPA determined for students at the university?
+   - What method does the university use to compute GPA?
+   - grading system
+   - aum grading
+   - GPA 
+   - How is my GPA calculated?
+   - What do the letter grades A, B, C, D, and F represent?
+   - Grading scale
+   - grade course
+#36
+- intent: campus_facilities
+  examples: |
+    - What dining options are available on campus?
+    - Where is the nearest gym or fitness center located?
+    - Can you tell me about the library facilities?
+    - How can I access computer labs or printing services?
+    - What medical services are provided on campus?
+    - Where can I find information about parking facilities?
+    - Are there study rooms or group collaboration spaces available?
+    - campus facilities
+    - Fitness center
+    - aum facilities
+    - Library facilities
+    - Parking facilities
+    - Medical services
+#37
+- intent: business_major
+  examples: |
+    - What are the core courses required for the business major?
+    - Can you provide information about the faculty members in the business department?
+    - What career opportunities are available for business majors?
+    - Are there any internships or experiential learning opportunities for business students?
+    - What specializations or concentrations are offered within the business major?
+    - Are there study abroad opportunities for business students?
+    - Can you provide information about the alumni network for business majors?
+    - How can I get involved in business-related research projects? 
+    - business major 
+    - Business administration
+#38
+- intent: attendance_dismissal_request
+  examples: |
+    - How do I submit an attendance dismissal request to the university?
+    - What are the requirements for requesting attendance dismissal?
+    - Where can I find the form for requesting attendance dismissal?
+    - Is there a deadline to submit a request to withdraw from attendance?
+    - Can I submit medical documents as part of my absence request?
+    - How will I be notified of the status of my absence request?
+    - attendance dismissal request
+    - aum dismissal
+    - Submission process
+    - Deadline attendance dismissal
+    - Requirements for attendance
+#39
+- intent: medical_examination_submission
+  examples: |
+    - How can I submit my medical examination results to the university?
+    - When should I submit the medical examination to the university?
+    - What are the procedures for submitting the medical examination to the university?
+    - Is there a deadline for submitting the medical examination?
+    - What documents are required to submit the medical examination?
+    - Do I need to bring the medical examination results in person or can they be sent electronically?
+    - How can I ensure that the university receives my medical examination results?
+    - Can I upload my medical examination results to the student portal?
+    - medical examination submission
+    - Submission process for medical examination
+    - Medical documentation
+#40
+- intent: lost_item_on_campus
+  examples: |
+    - How do I report a lost item on campus?
+    - Where should I go if I've lost something on campus?
+    - What information should I provide when reporting a lost item?
+    - What should I do if I find a lost item on campus?
+    - lost item on campus
+    - Reporting a lost item
+    - Finding a lost item
+    - Lost and found
+    - Reporting process for lost
+#41
+- intent: advising_services
+  examples: |
+    - What services does the advising office offer?
+    - Can you tell me about the advising services available?
+    - What kind of assistance can I get from the advising office?
+    - advising services
+    - aum advising 
+    - Academic advising
+    - what is the advising?
+    - Where can I find the advising office on campus?
+    - advising office
+#42
+- intent: schedule_advising_appointment
+  examples: |
+    - How can I schedule an appointment with my advisor?
+    - What is the process to book an advising appointment?
+    - Can you help me set up a meeting with an advisor?
+    - schedule advising appointment
+    - Appointment scheduling
+    - Advising appointment
+    - Booking an appointment
+    - Appointment availability
+    - online booking for advising
+#43
+- intent: advising_hours
+  examples: |
+    - When is the advising office open?
+    - What are the office hours for the advising department?
+    - What time can I visit the advising office?
+    - advising hours
+    - Office hours for advising
+    - When are the advising office hours?
+    - aum advising hours
+
+#44
+- intent: reset_password
+  examples: |
+    - How do I reset my password if I've forgotten it?
+    - What should I do if I don't receive the password reset email or SMS?
+    - reset password
+    - Forgot password
+    - Account access
+    - how can I reset my password if forget?
+    - How do I request a password reset?
+#45
+- intent: library_code_of_conduct
+  examples: |
+    - What are the rules and guidelines for behavior in the library?
+    - Are there any particular guidelines I need to follow when using the library?
+    - What are the library's policies?
+    - library code of conduct
+    - Library rules
+    - Quiet zones
+    - Library policies
+    - What are the library rules?
+    - library Conduct 
+    - What are the rules for behavior in the library?"
+#46
+- intent: student_affairs
+  examples: |
+    - What services does the student affairs department offer to support students?
+    - Where is the student affairs department located on campus?
+    - What are the office hours for the student affairs department?
+    - How can students contact the student affairs office?
+    - student affairs
+    - Student support
+    - Student services
+    - where is the student affairs?
+    - office hours for the student affairs?
+    - What is the email address for student affairs?
+#47
+- intent: mobile_app
+  examples: |
+    - Can I use the university's mobile app to check my class schedule?
+    - Does the university's mobile app offer a campus map feature?
+    - Can I receive notifications about important university announcements through the mobile app?
+    - Is there a section in the mobile app where I can access library resources?
+    - mobile app
+    - aum app
+    - Application
+    - easy access
+    - campus map
+    - how can i download the mobile app?
+    - Smartphone app
+#48
+- intent: midterm_and_final_exams_guidelines
+  examples: |
+    - What are the guidelines for scheduling midterm exams?
+    - What are the guidelines for scheduling final exams?
+    - Are there guidelines for the exam? 
+    - midterm and final exams guidelines
+    - final guidelines
+    - midterm guidelines
+    - What instructions should I follow for midterm and final exams?
+    - Exam instructions
+    - info about guidelines
+    - Where can I find information about the exams guidelines?
+#49
+- intent: civil_engineering
+  examples: |
+    - How many credits does the civil engineering major typically require?
+    - Could you outline the core courses required for the civil engineering major, as well as any elective options available to students?
+    - Are there any student clubs or organizations specifically for civil engineering?
+    - I want to know more about the specialty of civil engineering?
+    - Is there a sample plan of study for civil engineering?
+    - civil engineering
+    - total credits for civil engineering
+    - clubs for civil engineering
+    - Structural engineering
+    - i want to learn more about civil engineering 
+    - civil engineering major
+#50
+- intent: industrial_engineering
+  examples: |
+   - How many credits does the industrial engineering major typically require?
+   - Is there a sample plan of study for industrial engineering?
+   - I want to know more about the specialty of industrial engineering?
+   - Could you outline the core courses required for the industrial engineering major?
+   - Can you list the basic classes needed to major in industrial engineering?
+   - industrial engineering
+   - the total credits for industrial engineering
+   - industrial engineering major
+   - core courses for industrial
+   - Engineering Economics
 #51
-- intent: repeat_specific_courses
+- intent: chemical_engineering
   examples: |
-   - What is the maximum duration allowed for students to repeat specific courses in order to pass and graduate?
-   - What is the allotted timeframe within which students can retake particular courses to successfully complete them and earn their degrees?
-   - What is the prescribed time limit for students to retake specific courses with the aim of passing and completing their graduation requirements?
-   - Within what timeframe are students permitted to repeat certain courses in order to fulfill the necessary criteria for graduation?
-   - How long are students allowed to retake specific courses in order to meet the requirements for passing and obtaining their degrees?
-   - What is the stipulated duration during which students may reattempt particular courses to achieve passing grades and fulfill graduation prerequisites?
-
+   - How many credits does the chemical engineering major require?
+   - Is there a sample plan of study for chemicall engineering?
+   - I want to know more about the specialty of chemical engineering?
+   - Could you outline the core courses required for the chemical engineering major?
+   - Can you list the basic classes needed to major in chemical engineering?
+   - chemical engineering
+   - the total credits for chemical engineering
+   - chemical major
+   - Engineering Thermodynamics
+   - core courses for the chemical  
 #52
-- intent: fail_pre_english_math
+- intent: mechanical_engineering
   examples: |
-   - What are the consequences for students in the English and Mathematics Preparatory Program if they fail to meet the required success grade after repeating a course?
-   - What are the outcomes for students in the English and Mathematics Preparatory Program if they fail to meet the expected success grade following the repetition of a course?
-   - What are the ramifications for students in the English and Mathematics Preparatory Program if they do not reach the necessary success grade upon redoing a course?
-   - What are the implications for students in the English and Mathematics Preparatory Program if they do not meet the requisite success grade even after repeating a course?
-   - What are the results for students in the English and Mathematics Preparatory Program if they fail to attain the required success grade after undergoing a course repetition?
-   - What happens to students in the English and Mathematics Preparatory Program if they don't achieve the required success grade after retaking a course?
-
+   - I want to know more about the specialty of mechanical engineering?
+   - How many credits does the mechanical engineering major require?
+   - Is there a sample plan of study for mechanical engineering?
+   - Could you outline the core courses required for the mechanical engineering major?
+   - Can you list the basic classes needed to major in mechanical engineering?
+   - mechanical engineering
+   - the total credits for mechanical engineering
+   - core courses for the mechanical
+   - Heat Transfer
+   - mechanical major 
 #53
-- intent: sponsorship_ccourse_repetition_fees
+- intent: Car_Decal
   examples: |
-   - Who is responsible for meeting regulations concerning course repetition fees for students under sponsorship agreements?
-   - Who is accountable for ensuring that students under sponsorship agreements adhere to regulations regarding course repetition fees?
-   - Who bears the responsibility for ensuring that students under sponsorship agreements comply with regulations regarding course repetition fees?
-   - Who is tasked with making sure that students under sponsorship agreements meet regulations concerning course repetition fees?
-   - Who is obligated to ensure that students under sponsorship agreements follow regulations regarding course repetition fees?
-   - Who is responsible for ensuring that students under sponsorship agreements abide by regulations concerning course repetition fees?
-
+   - What is the process for obtaining a parking decal at our university?
+   - How do I get a parking decal for my car on campus?
+   - what documentation is required for obtaining a parking decal?
+   - Can I choose where to park with my parking decal?
+   - What happens if I don't have a parking decal?
+   - Can I share my parking sticker with a friend?
+   - How does the university manage parking for students with disabilities?
+   - How will the university inform me about changes to parking rules?
+   - Car Decal
+   - parking decal
+   - Car sticker
+   - How do I apply a car decal?
 #54
-- intent: approvals_repeat_improve_CGPA
+- intent: Parking_Rules_and_Regulations
   examples: |
-   - What approvals are required for students intending to repeat courses to improve their CGPA?
-   - What authorizations are necessary for students planning to retake courses to enhance their CGPA?
-   - What permissions do students need if they intend to repeat courses to boost their CGPA?
-   - What approvals must students obtain if they plan to retake courses to enhance their CGPA?
-   - What sanctions do students need to acquire if they aim to repeat courses to elevate their CGPA?
-   - What clearances are mandatory for students seeking to retake courses to improve their CGPA?
-
+   - What are the rules for parking on campus?
+   - Where can I find information about parking regulations?
+   - Are there specific times when parking is allowed or prohibited?
+   - Parking Rules and Regulations
+   - learn about parking rules 
+   - What are the parking rules and regulations on campus?
+   - aum Parking
+   - parking info
+   - Where can I locate details regarding parking guidelines?
+   - Parking policies
+   - Campus parking
 #55
-- intent: steps_retake_subject_need
+- intent: complaints 
   examples: |
-   - What is the procedure for students who have completed their academic graduation requirements but intend to repeat certain subjects?
-   - What steps do students who have fulfilled their academic graduation criteria but wish to retake specific subjects need to follow?
-   - What is the process for students who have met their academic graduation prerequisites but desire to retake particular subjects?
-   - What is the protocol for students who have completed their academic graduation requirements but plan to redo specific subjects?
-   - What are the steps for students who have satisfied their academic graduation criteria but want to repeat particular subjects?
-   - What is the procedure for students who have fulfilled their academic graduation requirements but intend to retake specific subjects?
-
+   - How can students file a complaint about parking issues?
+   - Is there a designated office or department for complaints?
+   - What should students do if they encounter issues ?
+   - How can students file a complaint about campus facilities maintenance?
+   - What is the process for reporting issues with campus Wi-Fi or internet?
+   - Where can students find information about lodging complaints regarding academic services?
+   - Who should students contact if they have concerns about classroom equipment?
+   - complaints 
+   - Issues
+   - Concerns
+   - How can I file a complaint?
+   - I want to know how to submit a complaint.
 #56
-- intent: repeat_course_prerequisite_another_course
+- intent: registration_guide
   examples: |
-   - When should a student repeat a course if it is a requirement or prerequisite for another course?
-   - When is it necessary for a student to retake a course if it serves as a requirement or prerequisite for another course?
-   - At what point should a student repeat a course if it is a prerequisite or requirement for another course?
-   - In what circumstances should a student retake a course if it acts as a prerequisite or requirement for another course?
-   - Under what conditions should a student repeat a course if it is necessary for another course as a prerequisite or requirement?
-   - When must a student retake a course if it is essential for another course as a prerequisite or requirement?
-
+   - How can I find the registration guide at my university?
+   - Are there any tutorials or guides available to help me with the registration process?
+   - Is the registration guide available online?
+   - registration guide
+   - information about registration guide
+   - Registration process
+   - Where can I access the registration guide?
+   - What information does the registration guide provide?
+   - where Can I find information for the registration guide?
+   - Enrollment instructions
+   - Course registration guide
+   
 #57
-- intent: failed_course_replaced
+- intent: AUM_soft_skills
   examples: |
-   - Can a failed course be replaced or substituted with another course?
-   - Is it permissible to substitute or replace a failed course with another course?
-   - Can a course that has been failed be exchanged or substituted with a different course?
-   - Is it allowed to replace or substitute a failed course with an alternative course?
-   - Are students permitted to swap or replace a failed course with another course?
-   - Is there an option to substitute or exchange a failed course with a different course?
-
+   - what is soft skills e-courses platform at aum?
+   - Are there any workshops or programs available at AUM to help improve my soft skills?
+   - How can I access the soft skills platform?
+   - AUM soft skills
+   - Soft skills development
+   - skills
+   - Communication skills
+   - aum platform for soft skils
+   - How can I improve my soft skills?
+   - management skills
+   - Where can I learn more about time management skills
+   - Is there a website about soft skills?
 #58
-- intent: change_major_bus_eng_requirements
+- intent: AUM_book_store
   examples: |
-   - What are the requirements for changing a major from the College of Business Administration to the College of Engineering and Technology?
-   - What prerequisites must be met for switching majors from the College of Business Administration to the College of Engineering and Technology?
-   - What are the conditions for changing majors from the College of Business Administration to the College of Engineering and Technology?
-   - What criteria need to be fulfilled for transitioning from the College of Business Administration to the College of Engineering and Technology?
-   - What are the prerequisites for changing majors from the College of Business Administration to the College of Engineering and Technology?
-   - What are the necessary qualifications for switching majors from the College of Business Administration to the College of Engineering and Technology?
-
+   - Where is the bookstore located on campus?
+   - What are the bookstore hours?
+   - Does the bookstore sell supplies like notebooks, pens, and folders?
+   - AUM book store
+   - bookstore location
+   - Bookstore hours
+   - In which building the bookstore?
+   - Where is the AUM bookstore?
+   - Bookstore services
+   - notebooks
 #59
-- intent: change_major_eng_bus_requirements
+- intent: robotics_research_center
   examples: |
-   - What are the criteria for changing a major from the College of Engineering and Technology to the College of Business Administration?
-   - What are the requirements for transferring from the College of Engineering and Technology to the College of Business Administration?
-   - What conditions must be met to change majors from the College of Engineering and Technology to the College of Business Administration?
-   - What criteria need to be fulfilled for switching majors from the College of Engineering and Technology to the College of Business Administration?
-   - What prerequisites are necessary for transitioning from the College of Engineering and Technology to the College of Business Administration?
-   - What qualifications are needed for changing majors from the College of Engineering and Technology to the College of Business Administration?
-
+   - What are the goals of the robotics research center?
+   - How does the center aim to support student and research in robotics?
+   - Does therobotics research center offer interdisciplinary research programs?
+   - robotics research center
+   - aum robotics
+   - Robotics laboratory
+   - Can students get involved in research activities at the robotics research center?
+   - How can I learn more about the achievements of the robotics research center?
+   - the website for robotics research center
 #60
-- intent: bus_change_major_condition
+- intent: nanotechnology_center
   examples: |
-   - What are the conditions for changing a major within the College of Business Administration?
-   - What requirements must be met for changing majors within the College of Business Administration?
-   - What criteria apply to changing majors within the College of Business Administration?
-   - What are the prerequisites for switching majors within the College of Business Administration?
-   - What are the eligibility criteria for changing majors within the College of Business Administration?
-   - What conditions need to be satisfied to change majors within the College of Business Administration?
-
+   - What is the aims of the nanotechnology center?
+   - How does the center contribute to nanotechnology research?
+   - Why was the nanotechnology center established?
+   - nanotechnology center
+   - the website for nanotechnology center
+   - How can I learn more about the nanotechnology center
+   - aum nanotechnology 
+   - Nanoengineering
+   - Nanoscience
 #61
-- intent: eng_change_major_eng
+- intent: toefl_and_ielts
   examples: |
-   - What are the requirements for changing a major within the College of Engineering and Technology from Engineering Majors to Engineering Majors?
-   - What prerequisites must be fulfilled for changing majors within the College of Engineering and Technology from Engineering Majors to Engineering Majors?
-   - What are the conditions for switching majors within the College of Engineering and Technology from Engineering Majors to Engineering Majors?
-   - What are the eligibility criteria for changing majors within the College of Engineering and Technology from Engineering Majors to Engineering Majors?
-   - What prerequisites apply to changing majors within the College of Engineering and Technology from Engineering Majors to Engineering Majors?
-   - What are the requirements for transferring majors within the College of Engineering and Technology from Engineering Majors to Engineering Majors?
-
+   - What is the difference between TOEFL and IELTS?
+   - What is the format of the TOEFL/IELTS exam?
+   - What score do I need to pass the TOEFL/IELTS exam?
+   - Can the EPP student register for the TOEFL/IELTS test?
+   - toefl and ielts
+   - English proficiency tests
+   - How do I register for the TOEFL/IELTS exam?
+   - How can I prepare for the TOEFL/IELTS exam?
+   - Test preparation
 #62
-- intent: attendance_importance
+- intent: freezing_semester
   examples: |
-   - How does AUM define attendance and its importance?
-   - How does AUM characterize attendance and its significance?
-   - How is attendance defined at AUM and why is it important?
-   - What is AUM's interpretation of attendance and why does it hold significance?
-   - How does AUM define attendance and what is its significance?
-   - What is AUM's perspective on attendance and why does it matter?
-
+   - What does it mean to freeze a semester?
+   - Can I freeze my semester multiple times?
+   - How does the semester freeze affect the graduation timeline?
+   - freezing semester
+   - Temporary withdrawal
+   - Academic break
+   - How can I freeze my semester?
+   - What are the requirements for freezing a semester?
+   - freezinf course
+   - Are there any tuition fees of freezing a semester?
 #63
-- intent: honors_list_criteria
+- intent: official_withdrawal_from_AUM
   examples: |
-   - What are the criteria for being named on the Honors List at AUM?
-   - What are the conditions for being included on AUM's Honors List?
-   - What are the requirements for making it onto the Honors List at AUM?
-   - What criteria must students meet to be listed on AUM's Honors List?
-   - What are the standards for inclusion on AUM's Honors List?
-   - What are the prerequisites for being recognized on AUM's Honors List?
-
+   - How do I officially withdraw from AUM?
+   - Is there a formal withdrawal form?
+   - Where can I submit the official withdrawal form?
+   - What grade will I get if I withdraw from the university?
+   - If I officially withdraw from the university, can I apply again?
+   - official withdrawal from AUM
+   - Withdrawal process
+   - Withdrawal form
+   - Withdrawal policy
+   - Are there any forms I need to fill out for an official withdrawal?
+   - Who should I contact if I have questions about the withdrawal process?
+   - Will withdrawing from AUM affect my academic record?
 #64
-- intent: grading_table
+- intent: cancelling_the_withdrawal_request_during_the_semester 
   examples: |
-   - Can I have the grading table?
-   - Could you please provide me with the grading table?
-   - May I have access to the grading table?
-   - Is it possible to obtain the grading table?
-   - Would you mind sharing the grading table with me?
-   - Could you kindly provide the grading table?
-
+   - Is there a deadline for canceling my withdrawal request?
+   - Can I cancel my withdrawal request multiple times in the same semester?
+   - What is the overall cumulative GPA required to withdraw?
+   - cancelling the withdrawal request during the semester
+   - Withdrawal cancellation
+   - Cancel the withdrawal request
+   - How do I cancel a withdrawal request once it's been submitted?
+   - Who should I contact if I want to cancel my withdrawal request?
+   - Do I need to fill out a form to cancel my withdrawal request?
+   - GPA required to withdraw
 #65
-- intent: park_car
+- intent: cheating
   examples: |
-   - Where can I park my car?
-   - Where is the designated parking area?
-   - Could you please direct me to the parking lot?
-   - Where can I find parking for my car?
-   - May I know the location of the parking facilities?
-   - Could you guide me to the nearest parking spot?
-
+   - What is cheating?
+   - What are the consequences of being caught cheating?
+   - What exactly is considered cheating?
+   - cheating
+   - Cheating consequences
+   - What is considered cheating at AUM?
+   - How does AUM prevent cheating during exams?
+   - Unauthorized assistance
+   - Cheating behavior
 #66
-- intent: join_art_club
+- intent: plagiarism 
   examples: |
-   - How can I join the art club?
-   - How do I become a member of the art club?
-   - What is the process for joining the art club?
-   - How can I get involved with the art club?
-   - What steps do I need to take to join the art club?
-   - Where can I find information on joining the art club?
-
+   - What is plagiarism?
+   - What steps can i take to avoid plagiarism?
+   - plagiarism 
+   - Where can I find the university's official policy on plagiarism?
+   - Plagiarism consequences
+   - How can I properly cite sources to avoid plagiarism?
+   - What are the consequences of plagiarism at AUM?
+   - Where can I find the university's official policy on plagiarism?
+   - avoid plagiarism
 #67
-- intent: join_book_club
+- intent: violation_of_dress_code
   examples: |
-   - How can I join the book club?
-   - What are the steps to become a member of the book club?
-   - How do I get involved with the book club?
-   - Where can I find information about joining the book club?
-   - What is the process for joining the book club?
-   - How can I become a part of the book club?
-
+   - What is considered a violation of the dress code?
+   - How can I know if my outfit follows the dress code guidelines?
+   - violation of dress code
+   - Dress code policy
+   - Dress guidelines
+   - What is the dress code policy at AUM?
+   - Dress code violation consequences
+   - Where can I find information about the dress code policy?
+   - What are the consequences of violating the dress code?
 #68
-- intent: join_drama_club
+- intent: no_smoking_policy
   examples: |
-   - How can I join the Drama Club?
-   - What steps do I need to take to become a member of the Drama Club?
-   - How can I get involved in the Drama Club?
-   - Where can I find information about joining the Drama Club?
-   - What is the process for joining the Drama Club?
-   - How do I become a part of the Drama Club?
-
+   - Where are the designated smoking areas on campus?
+   - Where can students smoke according to the policy?
+   - no smoking policy
+   - Smoke-free policy
+   - What is AUM's policy on smoking?
+   - Where are smoking designated areas located on campus?
+   - What are the consequences for violating the smoking policy?
+   - Smoking regulations
+   - somking
 #69
-- intent: join_music_club
+- intent: instructor_Hassan_Kanj
   examples: |
-   - How can I join the Music Club?
-   - What steps do I need to take to become a member of the Music Club?
-   - Where can I find information about joining the Music Club?
-   - What is the process for joining the Music Club?
-   - How do I become a part of the Music Club?
-   - Is there a specific procedure for joining the Music Club?
+   - Where is the instructor Hassan Kanj office located?
+   - Is there a specific email address I should use to contact the instructor Hassan Kanj?
+   - What department does the instructor Hassan Kanj belong to?
 
-#70
-- intent: join_photography_club
-  examples: |
-   - How can I join the Photography Club?
-   - What steps do I need to follow to become a member of the Photography Club?
-   - Where can I find information on joining the Photography Club?
-   - What is the process for joining the Photography Club?
-   - How do I become a member of the Photography Club?
-   - Is there a specific procedure I need to follow to join the Photography Club?
-
-#71
-- intent: join_speech_communication_club
-  examples: |
-   - How can  I join the Speech & Communication Club?
-   - What are the steps for becoming a member of the Speech & Communication Club?
-   - Where can I find information on joining the Speech & Communication Club?
-   - What is the process for joining the Speech & Communication Club?
-   - How do I become a member of the Speech & Communication Club?
-   - Is there a specific procedure I need to follow to join the Speech & Communication Club?
-
-#72
-- intent: art_club_location 
-  examples: |
-   - Where is the art club located?
-   - Where can I find the art club on campus?
-   - Where is the physical location of the art club?
-   - What is the address of the art club?
-   - In which building or area is the art club situated?
-
-#73
-- intent: book_club_location
-  examples: |
-   - Where is the Book Club located?
-   - Where can I find the Book Club?
-   - What is the location of the Book Club?
-   - Where is the Book Club situated?
-   - In what place can I locate the Book Club?
-   -  What is the Book Club's whereabouts?
-
-#74
-- intent: drama_club_location
-  examples: |
-   - Where is the Drama Club located?
-   - What is the location of the Drama Club?
-   - Where can I find the Drama Club?
-   - In what place is the Drama Club situated?
-   - Where is the Drama Club situated?
-   - What is the whereabouts of the Drama Club?
-
-#75
-- intent: music_club_location
-  examples: |
-   - Where is the Music Club located?
-   - What is the location of the Music Club?
-   - Where can I find the Music Club?
-   - In what place is the Music Club situated?
-   - Where is the Music Club situated?
-   - What is the whereabouts of the Music Club?
-   
-#76
-- intent: photo_club_location
-  examples: |
-   - Where is the Photography Club located?
-   - What is the location of the Photography Club?
-   - Where can I find the Photography Club?
-   - In what place is the Photography Club situated?
-   - Where is the Photography Club situated?
-   - What is the whereabouts of the Photography Club?
-   
-#77
-- intent: speech_communication_club_location
-  examples: |
-   - Where is the Speech & Communication Club?
-   - What is the location of the Speech & Communication Club?
-   - Where can I find the Speech & Communication Club?
-   - In what place is the Speech & Communication Club situated?
-   - Where is the Speech & Communication Club situated?
-   - What is the whereabouts of the Speech & Communication Club?
-
-#78
-- intent: art_club_info
-  examples: |
-   - Can I have information about the Art Club?
-   - Could you provide details about the Art Club? 
-   - May I get information regarding the Art Club?
-   - Could you share some insights about the Art Club?
-   - Would you mind giving me some information about the Art Club?
-   - Can you provide details about the Art Club, please?
-
-#79
-- intent: book_club_info
-  examples: |
-   - Can I have information about the Book Club?
-   - Could you please provide information about the Book Club?
-   - May I obtain information regarding the Book Club?
-   - Could you share details about the Book Club?
-   - Would you mind giving me some information about the Book Club?
-   - Can you provide information about the Book Club, please?
-
-#80
-- intent: drama_club_info
-  examples: |
-   - Can I have information about the Drama Club?
-   - Could you please provide details about the Drama Club? 
-   - May I obtain information regarding the Drama Club?
-   - Could you share details about the Drama Club?
-   - Would you mind giving me some information about the Drama Club?
-   - Can you provide information about the Drama Club, please?
-
-#81
-- intent: music_club_info
-  examples: |
-   - Can I have information about the Music Club?
-   - May I request information about the Music Club?
-   - Could you please provide details about the Music Club?
-   - I would like to know more about the Music Club, could you provide information?
-   - Is it possible to obtain information about the Music Club?
-   - Can you share details about the Music Club?
-   
-#82
-- intent: photo_club_info
-  examples: |
-   - Can I have information about the Photography Club?
-   - Could you please provide information about the Photography Club?
-   - May I request details regarding the Photography Club?
-   - Is it possible to obtain information about the Photography Club?
-   - Could you share some information about the Photography Club? 
-   - I would like to know more about the Photography Club. Could you provide details?
-   
-#83
-- intent: speech_communication_club_info
-  examples: |
-   - Can I have information about the Speech & Communication Club?
-   - Could you please provide information about the Speech & Communication Club?
-   - May I request details regarding the Speech & Communication Club?
-   - Is it possible to obtain information about the Speech & Communication Club?
-   - Could you share some information about the Speech & Communication Club?
-   - I would like to know more about the Speech & Communication Club. Could you provide details?
-   
-#84
-- intent: UG_2023_2024_calendar
-  examples: |
-   - Can I have the academic calendar of UG 2023-2024?
-   - Could you please provide the academic calendar for undergraduate students for the academic year 2023-2024?
-   - May I request the academic calendar for UG students for the academic year 2023-2024?
-   - Is it possible to obtain the academic calendar for undergraduate students for the academic year 2023-2024?
-   - Could you share the academic calendar for UG students for the academic year 2023-2024?
-   - I would like to have access to the academic calendar for undergraduate students for the academic year 2023-2024. Could you provide it?
-   
-#85
-- intent: EPP_2023_2024_calendar
-  examples: |
-   - Can I have the academic calendar of EPP 2023-2024?
-   - Could you please provide the academic calendar for the English Preparatory Program EPP for the academic year 2023-2024?
-   - May I request the academic calendar for the English Preparatory Program EPP for the academic year 2023-2024?
-   - Is it possible to obtain the academic calendar for the English Preparatory Program EPP for the academic year 2023-2024?
-   - Could you share the academic calendar for the English Preparatory Program EPP for the academic year 2023-2024?
-   - I would like to have access to the academic calendar for the English Preparatory Program EPP for the academic year 2023-2024. Could you provide it?
-
-#86
-- intent: attendance_policy
-  examples: |
-   - Can i have the attendance policy?
-   - Could you please provide me with the attendance policy?
-   - May I request a copy of the attendance policy?
-   - Is it possible to obtain the attendance policy?
-   - Could you share the attendance policy with me?
-   - I would like to have access to the attendance policy. Could you provide it?
-
-#87
-- intent: examination_guidelines
-  examples: |
-   - Can I know the students examination guidelines?
-   - Could you please provide me with the guidelines for student examinations?
-   - May I request the guidelines for student examinations?
-   - Is it possible to obtain the student examination guidelines?
-   - Could you share the examination guidelines for students with me?
-   - I would like to know the guidelines for student examinations. Could you provide them?
-
-#89
-- intent: med_examination_form
-  examples: |
-   - Can I have the medical examination form?
-   - Could you please provide me with the medical examination form?
-   - May I request the medical examination form?
-   - Is it possible to obtain the medical examination form?
-   - Could you share the medical examination form with me?
-   - I would like to have access to the medical examination form.
