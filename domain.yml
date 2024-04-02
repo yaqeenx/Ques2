@@ -13,7 +13,7 @@ intents:
   - AUM_email_for_the_university_student
   - class_standing
   - graduation_with_honors
-  - bout_AUM 
+  - about_AUM 
   - changing_major_from_business_to_engineering
   - writing_lab
   - AUM_registration
@@ -43,7 +43,7 @@ intents:
   - AUM_calendar
   - AUM_subject
   - grading_system
-  - Ask_about_elearning
+  - about_e-learning
   - campus_facilities
   - business_major
   - attendance_dismissal_request
@@ -265,7 +265,7 @@ responses:
   utter_grading_system:
   - text: "At our university, the grading system typically follows a scale of letter grades (e.g., A, B, C, D, F) ,The GPA (Grade Point Average) is calculated based on the grades earned in individual courses and the credit hours associated with each course."
 
-  utter_elearning:
+  utter_about_e-learning:
   - text: " - To get started, you can enroll in a course by visiting our website and selecting the course you're interested in.
             - You can take multiple courses at one time, but we recommend focusing on one or two at a time to ensure you can manage your workload effectively.
             - Yes, reports are available to track your progress and completion of courses. You can access them through your student dashboard.
@@ -383,7 +383,7 @@ responses:
   utter_complaints:
    - text: "If you have a complaint,you can submit a request about the problem you encountered through the AUM portal -> students link -> complaint"
 
-  utter_ registration_guide:
+  utter_registration_guide:
    - text: "The registration guide includes information about procedures on how to use the online registration system,You can visit the AUM portal -> Downloads -> Registration guide for students"
 
  

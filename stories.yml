@@ -1,0 +1,859 @@
+version: "3.1" 
+
+stories: 
+
+- story: happy path 
+  steps:
+  - intent: greet 
+  - action: utter_greet 
+  - intent: mood_great 
+  - action: utter_happy 
+
+- story: sad path 1
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_unhappy
+  - action: utter_cheer_up
+  - action: utter_did_that_help
+  - intent: affirm
+  - action: utter_happy
+
+- story: sad path 2
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_unhappy
+  - action: utter_cheer_up
+  - action: utter_did_that_help
+  - intent: deny
+  - action: utter_goodbye
+
+- story: AUM student ID
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_unhappy
+  - action: utter_cheer_up
+  - intent: AUM_student_ID
+  - action: utter_AUM_student_ID
+  - action: utter_did_that_help
+  - intent: goodbye
+  - action: utter_goodbye
+  
+- story: AUM clinic
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_unhappy
+  - action: utter_cheer_up
+  - intent: AUM_clinic
+  - action: utter_AUM_clinic
+  - action: utter_did_that_help
+  - intent: goodbye
+  - action: utter_goodbye
+
+- story: AUM email for the university student
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_unhappy
+  - action: utter_cheer_up
+  - intent: AUM_email_for_the_university_student
+  - action: utter_AUM_email_for_the_university_student
+  - action: utter_did_that_help
+  - intent: goodbye
+  - action: utter_goodbye
+
+- story: class standing
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_unhappy
+  - action: utter_cheer_up
+  - intent: class_standing
+  - action: utter_class_standing
+  - action: utter_did_that_help
+  - intent: goodbye
+  - action: utter_goodbye
+
+- story: graduation with honors
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_unhappy
+  - action: utter_cheer_up
+  - intent: graduation_with_honors
+  - action: utter_graduation_with_honors
+  - action: utter_did_that_help
+  - intent: goodbye
+  - action: utter_goodbye
+
+- story: about AUM
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_unhappy
+  - action: utter_cheer_up
+  - intent: about_AUM
+  - action: utter_about_AUM
+  - action: utter_did_that_help
+  - intent: goodbye
+  - action: utter_goodbye
+
+- story: changing major from business to engineering
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_unhappy
+  - action: utter_cheer_up
+  - intent: changing_major_from_business_to_engineering
+  - action: utter_changing_major_from_business_to_engineering
+  - action: utter_did_that_help
+  - intent: goodbye
+  - action: utter_goodbye
+
+- story: writing lab
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_unhappy
+  - action: utter_cheer_up
+  - intent: writing_lab
+  - action: utter_writing_lab
+  - action: utter_did_that_help
+  - intent: goodbye
+  - action: utter_goodbye
+
+- story: AUM registration
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_unhappy
+  - action: utter_cheer_up
+  - intent: AUM_registration
+  - action: utter_AUM_registration
+  - action: utter_did_that_help
+  - intent: goodbye
+  - action: utter_goodbye
+
+- story: final exam
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_unhappy
+  - action: utter_cheer_up
+  - intent: final_exam
+  - action: utter_final_exam
+  - action: utter_did_that_help
+  - intent: goodbye
+  - action: utter_goodbye
+
+- story: AUM library
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_unhappy
+  - action: utter_cheer_up
+  - intent: AUM_library
+  - action: utter_AUM_library
+  - action: utter_did_that_help
+  - intent: goodbye
+  - action: utter_goodbye
+
+- story: AUM restaurant
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_unhappy
+  - action: utter_cheer_up
+  - intent: AUM_restaurant
+  - action: utter_AUM_restaurant
+  - action: utter_did_that_help
+  - intent: goodbye
+  - action: utter_goodbye
+
+- story: ATM service
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_unhappy
+  - action: utter_cheer_up
+  - intent: ATM_service
+  - action: utter_ATM_service
+  - action: utter_did_that_help
+  - intent: goodbye
+  - action: utter_goodbye
+
+- story: tawteen career center
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_unhappy
+  - action: utter_cheer_up
+  - intent: tawteen_career_center
+  - action: utter_tawteen_career_center
+  - action: utter_did_that_help
+  - intent: goodbye
+  - action: utter_goodbye
+
+- story: emergency cases
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_unhappy
+  - action: utter_cheer_up
+  - intent: emergency_cases
+  - action: utter_emergency_cases
+  - action: utter_did_that_help
+  - intent: goodbye
+  - action: utter_goodbye
+
+- story: AUM major
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_unhappy
+  - action: utter_cheer_up
+  - intent: AUM_major
+  - action: utter_AUM_major
+  - action: utter_did_that_help
+  - intent: goodbye
+  - action: utter_goodbye
+
+- story: computer engineering
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_unhappy
+  - action: utter_cheer_up
+  - intent: computer_engineering
+  - action: utter_computer_engineering
+  - action: utter_did_that_help
+  - intent: goodbye
+  - action: utter_goodbye
+
+- story: electrical engineering
+  steps: 
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_unhappy
+  - action: utter_cheer_up
+  - intent: electrical_engineering
+  - action: utter_electrical_engineering
+  - action: utter_did_that_help
+  - intent: goodbye
+  - action: utter_goodbye
+
+- story: clinic services
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_unhappy
+  - action: utter_cheer_up
+  - intent: clinic_services
+  - action: utter_clinic_services
+  - action: utter_did_that_help
+  - intent: goodbye
+  - action: utter_goodbye
+
+- story: clinic location
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_unhappy
+  - action: utter_cheer_up
+  - intent: clinic_location
+  - action: utter_clinic_location
+  - action: utter_did_that_help
+  - intent: goodbye
+  - action: utter_goodbye
+
+- story: sports center
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_unhappy
+  - action: utter_cheer_up
+  - intent: sports_center
+  - action: utter_sports_center
+  - action: utter_did_that_help
+  - intent: goodbye
+  - action: utter_goodbye
+
+- story: it services
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_unhappy
+  - action: utter_cheer_up
+  - intent: it_services
+  - action: utter_it_services
+  - action: utter_did_that_help
+  - intent: goodbye
+  - action: utter_goodbye
+
+- story: aum website
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_unhappy
+  - action: utter_cheer_up
+  - intent: aum_website
+  - action: utter_aum_website
+  - action: utter_did_that_help
+  - intent: goodbye
+  - action: utter_goodbye
+
+- story: portal purpose
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_unhappy
+  - action: utter_cheer_up
+  - intent: portal_purpose
+  - action: utter_portal_purpose
+  - action: utter_did_that_help
+  - intent: goodbye
+  - action: utter_goodbye
+
+- story: aum Moodle
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_unhappy
+  - action: utter_cheer_up
+  - intent: aum_Moodle
+  - action: utter_aum_Moodle
+  - action: utter_did_that_help
+  - intent: goodbye
+  - action: utter_goodbye
+
+- story: aum banner
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_unhappy
+  - action: utter_cheer_up
+  - intent: aum_banner
+  - action: utter_aum_banner
+  - action: utter_did_that_help
+  - intent: goodbye
+  - action: utter_goodbye
+
+- story: aum communicate
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_unhappy
+  - action: utter_cheer_up
+  - intent: aum_communicate
+  - action: utter_aum_communicate
+  - action: utter_did_that_help
+  - intent: goodbye
+  - action: utter_goodbye
+
+- story: parking services
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_unhappy
+  - action: utter_cheer_up
+  - intent: parking_services
+  - action: utter_parking_services
+  - action: utter_did_that_help
+  - intent: goodbye
+  - action: utter_goodbye
+
+- story: students identified
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_unhappy
+  - action: utter_cheer_up
+  - intent: students_identified
+  - action: utter_students_identified
+  - action: utter_did_that_help
+  - intent: goodbye
+  - action: utter_goodbye
+
+- story: tutoring center
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_unhappy
+  - action: utter_cheer_up
+  - intent: tutoring_center
+  - action: utter_tutoring_center
+  - action: utter_did_that_help
+  - intent: goodbye
+  - action: utter_goodbye
+
+- story: innovation center
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_unhappy
+  - action: utter_cheer_up
+  - intent: innovation_center
+  - action: utter_innovation_center
+  - action: utter_did_that_help
+  - intent: goodbye
+  - action: utter_goodbye
+
+- story: about e-learning
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_unhappy
+  - action: utter_cheer_up
+  - intent: about_e-learning
+  - action: utter_about_e-learning
+  - action: utter_did_that_help
+  - intent: goodbye
+  - action: utter_goodbye
+
+- story: AUM calendar
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_unhappy
+  - action: utter_cheer_up
+  - intent: AUM_calendar
+  - action: utter_AUM_calendar
+  - action: utter_did_that_help
+  - intent: goodbye
+  - action: utter_goodbye
+
+- story: AUM subject
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_unhappy
+  - action: utter_cheer_up
+  - intent: AUM_subject
+  - action: utter_AUM_subject
+  - action: utter_did_that_help
+  - intent: goodbye
+  - action: utter_goodbye
+
+- story: grading system
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_unhappy
+  - action: utter_cheer_up
+  - intent: grading_system
+  - action: utter_grading_system
+  - action: utter_did_that_help
+  - intent: goodbye
+  - action: utter_goodbye
+
+- story: campus facilities
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_unhappy
+  - action: utter_cheer_up
+  - intent: campus_facilities
+  - action: utter_campus_facilities
+  - action: utter_did_that_help
+  - intent: goodbye
+  - action: utter_goodbye
+
+- story: business major
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_unhappy
+  - action: utter_cheer_up
+  - intent: business_major
+  - action: utter_business_major
+  - action: utter_did_that_help
+  - intent: goodbye
+  - action: utter_goodbye
+
+- story: attendance dismissal request
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_unhappy
+  - action: utter_cheer_up
+  - intent: attendance_dismissal_request
+  - action: utter_attendance_dismissal_request
+  - action: utter_did_that_help
+  - intent: goodbye
+  - action: utter_goodbye
+
+- story: medical examination submission
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_unhappy
+  - action: utter_cheer_up
+  - intent: medical_examination_submission
+  - action: utter_medical_examination_submission
+  - action: utter_did_that_help
+  - intent: goodbye
+  - action: utter_goodbye
+
+- story: lost item on campus
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_unhappy
+  - action: utter_cheer_up
+  - intent: lost_item_on_campus
+  - action: utter_lost_item_on_campus
+  - action: utter_did_that_help
+  - intent: goodbye
+  - action: utter_goodbye
+
+- story: advising services
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_unhappy
+  - action: utter_cheer_up
+  - intent: advising_services
+  - action: utter_advising_services
+  - action: utter_did_that_help
+  - intent: goodbye
+  - action: utter_goodbye
+
+- story: schedule advising appointment
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_unhappy
+  - action: utter_cheer_up
+  - intent: schedule_advising_appointment
+  - action: utter_schedule_advising_appointment
+  - action: utter_did_that_help
+  - intent: goodbye
+  - action: utter_goodbye
+
+- story: advising hours
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_unhappy
+  - action: utter_cheer_up
+  - intent: advising_hours
+  - action: utter_advising_hours
+  - action: utter_did_that_help
+  - intent: goodbye
+  - action: utter_goodbye
+
+- story: reset password
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_unhappy
+  - action: utter_cheer_up
+  - intent: reset_password
+  - action: utter_reset_password
+  - action: utter_did_that_help
+  - intent: goodbye
+  - action: utter_goodbye
+
+- story: library code of conduct
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_unhappy
+  - action: utter_cheer_up
+  - intent: library_code_of_conduct
+  - action: utter_library_code_of_conduct
+  - action: utter_did_that_help
+  - intent: goodbye
+  - action: utter_goodbye
+
+- story: student affairs
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_unhappy
+  - action: utter_cheer_up
+  - intent: student_affairs
+  - action: utter_student_affairs
+  - action: utter_did_that_help
+  - intent: goodbye
+  - action: utter_goodbye
+
+- story: mobile app
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_unhappy
+  - action: utter_cheer_up
+  - intent: mobile_app
+  - action: utter_mobile_app
+  - action: utter_did_that_help
+  - intent: goodbye
+  - action: utter_goodbye
+
+- story: midterm and final exams guidelines
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_unhappy
+  - action: utter_cheer_up
+  - intent: midterm_and_final_exams_guidelines
+  - action: utter_midterm_and_final_exams_guidelines
+  - action: utter_did_that_help
+  - intent: goodbye
+  - action: utter_goodbye
+
+- story: civil engineering
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_unhappy
+  - action: utter_cheer_up
+  - intent: civil_engineering
+  - action: utter_civil_engineering
+  - action: utter_did_that_help
+  - intent: goodbye
+  - action: utter_goodbye
+
+- story: industrial engineering
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_unhappy
+  - action: utter_cheer_up
+  - intent: industrial_engineering
+  - action: utter_industrial_engineering
+  - action: utter_did_that_help
+  - intent: goodbye
+  - action: utter_goodbye
+
+- story: chemical engineering
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_unhappy
+  - action: utter_cheer_up
+  - intent: chemical_engineering
+  - action: utter_chemical_engineering
+  - action: utter_did_that_help
+  - intent: goodbye
+  - action: utter_goodbye
+
+- story: mechanical engineering
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_unhappy
+  - action: utter_cheer_up
+  - intent: mechanical_engineering
+  - action: utter_mechanical_engineering
+  - action: utter_did_that_help
+  - intent: goodbye
+  - action: utter_goodbye
+
+- story: Car Decal
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_unhappy
+  - action: utter_cheer_up
+  - intent: Car_Decal
+  - action: utter_Car_Decal
+  - action: utter_did_that_help
+  - intent: goodbye
+  - action: utter_goodbye
+
+- story: Parking Rules and Regulations
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_unhappy
+  - action: utter_cheer_up
+  - intent: Parking_Rules_and_Regulations
+  - action: utter_Parking_Rules_and_Regulations
+  - action: utter_did_that_help
+  - intent: goodbye
+  - action: utter_goodbye
+
+- story: complaints 
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_unhappy
+  - action: utter_cheer_up
+  - intent: complaints 
+  - action: utter_complaints 
+  - action: utter_did_that_help
+  - intent: goodbye
+  - action: utter_goodbye
+
+- story: registration guide
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_unhappy
+  - action: utter_cheer_up
+  - intent: registration_guide
+  - action: utter_registration_guide
+  - action: utter_did_that_help
+  - intent: goodbye
+  - action: utter_goodbye
+
+- story: AUM soft skills
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_unhappy
+  - action: utter_cheer_up
+  - intent: AUM_soft_skills
+  - action: utter_AUM_soft_skills
+  - action: utter_did_that_help
+  - intent: goodbye
+  - action: utter_goodbye
+
+- story: AUM book store
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_unhappy
+  - action: utter_cheer_up
+  - intent: AUM_book_store
+  - action: utter_AUM_book_store
+  - action: utter_did_that_help
+  - intent: goodbye
+  - action: utter_goodbye
+
+- story: robotics research center
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_unhappy
+  - action: utter_cheer_up
+  - intent: robotics_research_center
+  - action: utter_robotics_research_center
+  - action: utter_did_that_help
+  - intent: goodbye
+  - action: utter_goodbye
+
+- story: nanotechnology center
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_unhappy
+  - action: utter_cheer_up
+  - intent: nanotechnology_center
+  - action: utter_nanotechnology_center
+  - action: utter_did_that_help
+  - intent: goodbye
+  - action: utter_goodbye
+
+- story: toefl and ielts
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_unhappy
+  - action: utter_cheer_up
+  - intent: toefl_and_ielts
+  - action: utter_toefl_and_ielts
+  - action: utter_did_that_help
+  - intent: goodbye
+  - action: utter_goodbye
+
+- story: freezing semester
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_unhappy
+  - action: utter_cheer_up
+  - intent: freezing_semester
+  - action: utter_freezing_semester
+  - action: utter_did_that_help
+  - intent: goodbye
+  - action: utter_goodbye
+
+- story: official withdrawal from AUM
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_unhappy
+  - action: utter_cheer_up
+  - intent: official_withdrawal_from_AUM
+  - action: utter_official_withdrawal_from_AUM
+  - action: utter_did_that_help
+  - intent: goodbye
+  - action: utter_goodbye
+
+- story: cancelling the withdrawal request during the semester 
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_unhappy
+  - action: utter_cheer_up
+  - intent: cancelling_the_withdrawal_request_during_the_semester 
+  - action: utter_cancelling_the_withdrawal_request_during_the_semester 
+  - action: utter_did_that_help
+  - intent: goodbye
+  - action: utter_goodbye
+
+- story: cheating
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_unhappy
+  - action: utter_cheer_up
+  - intent: cheating
+  - action: utter_cheating
+  - action: utter_did_that_help
+  - intent: goodbye
+  - action: utter_goodbye
+
+- story: plagiarism 
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_unhappy
+  - action: utter_cheer_up
+  - intent: plagiarism 
+  - action: utter_plagiarism 
+  - action: utter_did_that_help
+  - intent: goodbye
+  - action: utter_goodbye
+
+- story: violation of dress code
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_unhappy
+  - action: utter_cheer_up
+  - intent: violation_of_dress_code
+  - action: utter_violation_of_dress_code
+  - action: utter_did_that_help
+  - intent: goodbye
+  - action: utter_goodbye
+
+- story: no smoking policy
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_unhappy
+  - action: utter_cheer_up
+  - intent: no_smoking_policy
+  - action: utter_no_smoking_policy
+  - action: utter_did_that_help
+  - intent: goodbye
+  - action: utter_goodbye
+
+- story: instructor Hassan Kanj
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_unhappy
+  - action: utter_cheer_up
+  - intent: instructor_Hassan_Kanj
+  - action: utter_instructor_Hassan_Kanj
+  - action: utter_did_that_help
+  - intent: goodbye
+  - action: utter_goodbye
+

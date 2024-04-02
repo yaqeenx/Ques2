@@ -488,7 +488,7 @@ nlu:
    - aum innovation
    - what is the innovation center?
 #32
-- intent: Ask_about_e-learning
+- intent: about_e-learning
   examples: |
     - How do I start?
     - How many courses can I take at one time?
