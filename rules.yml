@@ -2,10 +2,126 @@ version: "3.1"
 
 rules:
 
-# - rule: ask about student ID
-#   steps:
-#   - intent: AUM_student_ID
-#   - action: utter_AUM_student_ID
+- rule: ask about lose id
+  steps:
+  - intent: lose_id
+  - action: utter_lose_id
+
+- rule: ask about library location
+  steps:
+  - intent: library_location
+  - action: utter_library_location
+
+- rule: ask about library hours 
+  steps:
+  - intent: library_hours 
+  - action: utter_library_hours 
+
+- rule: ask about contact the library
+  steps:
+  - intent: contact_the_library
+  - action: utter_contact_the_library
+
+- rule: ask about advising services
+  steps:
+  - intent: advising_services
+  - action: utter_advising_services
+
+- rule: ask about advising location
+  steps:
+  - intent: advising_location
+  - action: utter_advising_location
+
+- rule: ask about schedule advising appointment
+  steps:
+  - intent: schedule_advising_appointment
+  - action: utter_schedule_advising_appointment
+
+- rule: ask about advising hours
+  steps:
+  - intent: advising_hours
+  - action: utter_advising_hours
+
+- rule: ask about reset password
+  steps:
+  - intent: reset_password
+  - action: utter_reset_password
+
+- rule: ask about library code of conduct
+  steps:
+  - intent: library_code_of_conduct
+  - action: utter_library_code_of_conduct
+
+- rule: ask about student affairs hours
+  steps:
+  - intent: student_affairs_hours
+  - action: utter_student_affairs_hours
+
+- rule: ask about contact the student affairs
+  steps:
+  - intent: contact_the_student_affairs
+  - action: utter_contact_the_student_affairs
+
+- rule: ask about student affairs location
+  steps:
+  - intent: student_affairs_location
+  - action: utter_student_affairs_location
+
+- rule: ask about student affairs services 
+  steps:
+  - intent: student_affairs_services 
+  - action: utter_student_affairs_services 
+
+- rule: ask about midterm and final exams guidelines
+  steps:
+  - intent: midterm_and_final_exams_guidelines
+  - action: utter_midterm_and_final_exams_guidelines
+
+- rule: ask about Parking Rules and Regulations
+  steps:
+  - intent: Parking_Rules_and_Regulations
+  - action: utter_Parking_Rules_and_Regulations
+
+- rule: ask about complaints
+  steps:
+  - intent: complaints
+  - action: utter_complaints
+
+- rule: ask about registration guide
+  steps:
+  - intent: registration_guide
+  - action: utter_registration_guide
+
+- rule: ask about AUM soft skills
+  steps:
+  - intent: AUM_soft_skills
+  - action: utter_AUM_soft_skills
+
+- rule: ask about book store location
+  steps:
+  - intent: book_store_location
+  - action: utter_book_store_location
+
+- rule: ask about bookstore hours
+  steps:
+  - intent: bookstore_hours
+  - action: utter_bookstore_hours
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 # - rule: ask about clinic
 #   steps:
@@ -51,11 +167,6 @@ rules:
 #   steps:
 #   - intent: final_exam
 #   - action: utter_final_exam
-
-# - rule: AUM library
-#   steps:
-#   - intent: AUM_library
-#   - action: utter_AUM_library
 
 # - rule: AUM restaurant
 #   steps:
@@ -211,45 +322,10 @@ rules:
 #   - intent: Ask_about_lost_item_on_campus
 #   - action: utter_lost_item_on_campus
 
-# - rule: ask about advising services 
-#   steps:
-#   - intent: advising_services
-#   - action: utter_advising_services
-
-# - rule: Schedule advising appointment
-#   steps:
-#   - intent: schedule_advising_appointment
-#   - action: utter_schedule_advising_appointment
-
-# - rule: ask about advising hours
-#   steps:
-#   - intent: advising_hours
-#   - action: utter_advising_hours
-
-# - rule: ask about reset password
-#   steps:
-#   - intent: reset_password
-#   - action: utter_reset_password
-
-# - rule: ask about library code f conduct
-#   steps:
-#   - intent: library_code_of_conduct
-#   - action: utter_library_code_of_conduct
-
-# - rule: ask about student affairs
-#   steps:
-#   - intent: student_affairs
-#   - action: utter_student_affairs
-
 # - rule: ask about mobile app
 #   steps:
 #   - intent: mobile_app
 #   - action: utter_mobile_app
-
-# - rule: ask about midterm and final exams guidelines
-#   steps:
-#   - intent: midterm_and_final_exams_guidelines
-#   - action: utter_midterm_and_final_exams_guidelines
 
 # - rule: ask about civil engineering
 #   steps:
@@ -265,31 +341,6 @@ rules:
 #   steps:
 #   - intent: Car_Decal
 #   - action: utter_Car_Decal
-
-# - rule: ask about Parking Rules and Regulations
-#   steps: 
-#   - intent: Parking_Rules_and_Regulations
-#   - action: utter_Parking_Rules_and_Regulations
-
-# - rule: ask about complaints
-#   steps: 
-#   - intent: complaints
-#   - action: utter_complaints
-
-# - rule: ask about registration guide
-#   steps: 
-#   - intent: registration_guide
-#   - action: utter_registration_guide
-
-# - rule: ask about AUM soft skills
-#   steps:
-#   - intent: AUM_soft_skills
-#   - action: utter_AUM_soft_skills
-
-# - rule: ask about AUM book store
-#   steps:
-#   - intent: AUM_book_store
-#   - action: utter_AUM_book_store
 
 # - rule: ask about robotics research center
 #   steps:
@@ -345,4 +396,5 @@ rules:
 #   steps:
 #   - intent: instructor_Hassan_Kanj
 #   - action: utter_instructor_Hassan_Kanj
+
 
