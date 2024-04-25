@@ -107,294 +107,258 @@ rules:
   - intent: bookstore_hours
   - action: utter_bookstore_hours
 
+- rule: ask about clinic location
+  steps:
+  - intent: clinic_location
+  - action: utter_clinic_location
 
+- rule: ask about clinic hours
+  steps:
+  - intent: clinic_hours
+  - action: utter_clinic_hours
 
+- rule: ask about clinic services
+  steps:
+  - intent: clinic_services
+  - action: utter_clinic_services
 
+- rule: ask about communicate student with university
+  steps:
+  - intent: communicate_student_with_university
+  - action: utter_communicate_student_with_university
 
+- rule: ask about change email password
+  steps:
+  - intent: change_email_password
+  - action: utter_change_email_password
 
+- rule: ask about class standing senior
+  steps:
+  - intent: class_standing_senior
+  - action: utter_class_standing_senior
 
+- rule: ask about class standing junior
+  steps:
+  - intent: class_standing_junior
+  - action: utter_class_standing_junior
 
+- rule: ask about class standing sophomore
+  steps:
+  - intent: class_standing_sophomore
+  - action: utter_class_standing_sophomore
 
+- rule: ask about class standing freshman
+  steps:
+  - intent: class_standing_freshman
+  - action: utter_class_standing_freshman
 
+- rule: ask about AUM
+  steps:
+  - intent: about_AUM
+  - action: utter_about_AUM
 
+- rule: ask about changing major from business to engineering
+  steps:
+  - intent: changing_major_from_business_to_engineering
+  - action: utter_changing_major_from_business_to_engineering
 
+- rule: ask about sports center
+  steps:
+  - intent: sports_center
+  - action: utter_sports_center
 
+- rule: ask about it services
+  steps:
+  - intent: it_services
+  - action: utter_it_services
 
+- rule: ask about aum website
+  steps:
+  - intent: aum_website
+  - action: utter_aum_website
 
+- rule: ask about portal purpose
+  steps:
+  - intent: portal_purpose
+  - action: utter_portal_purpose
 
+- rule: ask about aum Moodle
+  steps:
+  - intent: aum_Moodle
+  - action: utter_aum_Moodle
 
-# - rule: ask about clinic
-#   steps:
-#   - intent: AUM_clinic
-#   - action: utter_AUM_clinic
+- rule: ask about aum banner
+  steps:
+  - intent: aum_banner
+  - action: utter_aum_banner
 
-# - rule: ask about AUM email for the university student
-#   steps:
-#   - intent: AUM_email_for_the_university_student
-#   - action: utter_AUM_email_for_the_university_student
+- rule: ask about aum communicate
+  steps:
+  - intent: aum_communicate
+  - action: utter_aum_communicate
 
-# - rule: ask about class standing
-#   steps:
-#   - intent: class_standing
-#   - action: utter_class_standing
+- rule: ask about parking services
+  steps:
+  - intent: parking_services
+  - action: utter_parking_services
 
-# - rule: ask about graduation with honors
-#   steps:
-#   - intent: graduation_with_honors
-#   - action: utter_graduation_with_honors
+- rule: ask about students identified
+  steps:
+  - intent: students_identified
+  - action: utter_students_identified
 
-# - rule: ask about AUM 
-#   steps:
-#   - intent: about_AUM
-#   - action: utter_about_AUM
+- rule: ask about tutoring center
+  steps:
+  - intent: tutoring_center
+  - action: utter_tutoring_center
 
-# - rule: ask about changing major from business to engineering
-#   steps:
-#   - intent: changing_major_from_business_to_engineering
-#   - action: utter_changing_major_from_business_to_engineering
+- rule: ask about innovation center
+  steps:
+  - intent: innovation_center
+  - action: utter_innovation_center
 
-# - rule: ask about writing lab
-#   steps:
-#   - intent: writing_lab
-#   - action: utter_writing_lab
+- rule: ask about AUM subject
+  steps:
+  - intent: AUM_subject
+  - action: utter_AUM_subject
 
-# - rule: :ask about registration
-#   steps:
-#   - intent: AUM_registration
-#   - action: utter_AUM_registration
+- rule: ask about grading system
+  steps:
+  - intent: grading_system
+  - action: utter_grading_system
 
-# - rule: final exam
-#   steps:
-#   - intent: final_exam
-#   - action: utter_final_exam
+- rule: ask about graduation with honors
+  steps:
+  - intent: graduation_with_honors
+  - action: utter_graduation_with_honors
 
-# - rule: AUM restaurant
-#   steps:
-#   - intent: AUM_restaurant 
-#   - action: utter_AUM_restaurant
+- rule: ask about writing lab
+  steps:
+  - intent: writing_lab
+  - action: utter_writing_lab
 
-# - rule: ATM service
-#   steps:
-#   - intent: ATM_service
-#   - action: utter_ATM_service
+- rule: ask about AUM restaurant
+  steps:
+  - intent: AUM_restaurant
+  - action: utter_AUM_restaurant
 
-# - rule: tawteen career center
-#   steps:
-#   - intent: tawteen_career_center
-#   - action: utter_tawteen_career_center
+- rule: ask about ATM service
+  steps:
+  - intent: ATM_service
+  - action: utter_ATM_service
 
-# - rule: emergency cases
-#   steps:
-#   - intent: emergency_cases
-#   - action: utter_emergency_cases
+- rule: ask about AUM major
+  steps:
+  - intent: AUM_major
+  - action: utter_AUM_major
 
-# - rule: AUM major
-#   steps:
-#   - intent: AUM_major
-#   - action: utter_AUM_major
+- rule: ask about course registration
+  steps:
+  - intent: course_registration
+  - action: utter_course_registration
 
-# - rule: computer engineering
-#   steps:
-#   - intent: computer_engineering
-#   - action: utter_computer_engineering
-  
-# - rule: electrical engineering
-#   steps:
-#   - intent: electrical_engineering
-#   - action: utter_electrical_engineering
+- rule: ask about credit for registration
+  steps:
+  - intent: credit_for_registration
+  - action: utter_credit_for_registration
 
-# - rule: ask about clinic services 
-#   steps:
-#   - intent: clinic_services 
-#   - action: utter_clinic_services 
+- rule: ask about add and drop
+  steps:
+  - intent: add_and_drop
+  - action: utter_add_and_drop
 
-# - rule: ask about clinic location
-#   steps:
-#   - intent: clinic_location
-#   - action: utter_clinic_location
+- rule: ask about AUM calendar
+  steps:
+  - intent: AUM_calendar
+  - action: utter_AUM_calendar
 
-# - rule: ask about sports center
-#   steps:  
-#   - intent: sports_center
-#   - action: utter_sports_center
+- rule: ask about emergency cases
+  steps:
+  - intent: emergency_cases
+  - action: utter_emergency_cases
 
-# - rule: ask about it services
-#   steps:
-#   - intent: it_services
-#   - action: utter_it_services
+- rule: ask about tawteen career center
+  steps:
+  - intent: tawteen_career_center
+  - action: utter_tawteen_career_center
 
+- rule: ask about medical examination submission
+  steps:
+  - intent: medical_examination_submission
+  - action: utter_medical_examination_submission
 
-# - rule: ask about aum aum website
-#   steps:
-#   - intent: aum_website
-#   - action: utter_aum_website
+- rule: ask about lost item on campus
+  steps:
+  - intent: lost_item_on_campus
+  - action: utter_lost_item_on_campus
 
-# - rule : ask about portal purpose
-#   steps:  
-#   - intent : portal_purpose
-#   - action : utter_portal_purpose
+- rule: ask about campus facilities
+  steps:
+  - intent: campus_facilities
+  - action: utter_campus_facilities
 
-# - rule: ask about aum moodle
-#   steps:
-#   - intent: aum_Moodle
-#   - action: utter_aum_Moodle
+- rule: ask about Car Decal
+  steps:
+  - intent: Car_Decal     
+  - action: utter_Car_Decal
 
-# - rule: ask about aum banner
-#   steps:
-#   - intent: aum_banner
-#   - action: utter_aum_banner
+- rule: ask about freezing semester
+  steps: 
+  - intent: freezing_semester
+  - action: utter_freezing_semester
 
+- rule: ask about cheating
+  steps: 
+  - intent: cheating
+  - action: utter_cheating
 
-# - rule: ask about aum communicate
-#   steps:
-#   - intent: aum_communicate
-#   - action: utter_aum_communicate
+- rule: ask about plagiarism
+  steps: 
+  - intent: plagiarism
+  - action: utter_plagiarism
 
+- rule: ask about robotics research center
+  steps: 
+  - intent: robotics_research_center
+  - action: utter_robotics_research_center
 
-# - rule: ask about parking services
-#   steps:
-#   - intent: parking_services
-#   - action: utter_parking_services
+- rule: ask about nanotechnology center
+  steps: 
+  - intent: nanotechnology_center
+  - action: utter_nanotechnology_center
 
-# - rule: ask about students identified
-#   steps:
-#   - intent: students_identified
-#   - action: utter_students_identified
+- rule: ask about violation of dress code
+  steps: 
+  - intent: violation_of_dress_code
+  - action: utter_violation_of_dress_code
 
-# - rule: ask about tutoring center
-#   steps:
-#   - intent: tutoring_center
-#   - action: utter_tutoring_center
+- rule: ask about deadline for canceling withdrawal request
+  steps: 
+  - intent: deadline_for_canceling_withdrawal_request
+  - action: utter_deadline_for_canceling_withdrawal_request
 
-# - rule: ask about innovation center
-#   steps:
-#   - intent: innovation_center
-#   - action: utter_innovation_center
+- rule: ask about withdraw from the university
+  steps: 
+  - intent: withdraw_from_the_university
+  - action: utter_withdraw_from_the_university
 
-# - rule: ask about AUM calendar
+- rule: ask about GPA required to withdraw
+  steps: 
+  - intent: GPA_required_to_withdraw
+  - action: utter_GPA_required_to_withdraw
+
+# - rule: ask about 
 #   steps: 
-#   - intent: AUM_calendar
-#   - action: utter_AUM_calendar
+#   - intent: 
+#   - action: 
 
 
-# - rule: ask about AUM subject
-#   steps:
-#   - intent: AUM_subject
-#   - action: utter_AUM_subject
 
 
-# - rule: ask about grading system
-#   steps:
-#   - intent: ask_grading_system
-#   - action: utter_grading_system
 
 
-# - rule: ask about elearning 
-#   steps:
-#   - intent: Ask_about_elearning
-#   - action: utter_elearning
 
 
-# - rule: ask about campus facilities 
-#   steps:
-#   - intent: Ask_about_campus_facilities
-#   - action: utter_campus_facilities
 
-
-# - rule: ask about business major
-#   steps:
-#   - intent: Ask_about_business_major
-#   - action: utter_business_major
-
-# - rule: ask about attendance dismissal request
-#   steps:
-#   - intent: Ask_about_attendance_dismissal_request
-#   - action: utter_attendance_dismissal_request
-
-
-# - rule: ask about medical examination submission
-#   steps:
-#   - intent: Ask_about_medical_examination_submission
-#   - action: utter_medical_examination_submission
-
-# - rule: ask about lost item on campus 
-#   steps:
-#   - intent: Ask_about_lost_item_on_campus
-#   - action: utter_lost_item_on_campus
-
-# - rule: ask about mobile app
-#   steps:
-#   - intent: mobile_app
-#   - action: utter_mobile_app
-
-# - rule: ask about civil engineering
-#   steps:
-#   - intent: civil_engineering
-#   - action: utter_civil_engineering
-
-# - rule: ask about industrial engineering
-#   steps:
-#   - intent: industrial_engineering
-#   - action: utter_industrial_engineering
-
-# - rule: ask about Car Decal
-#   steps:
-#   - intent: Car_Decal
-#   - action: utter_Car_Decal
-
-# - rule: ask about robotics research center
-#   steps:
-#   - intent: robotics_research_center
-#   - action: utter_robotics_research_center
-
-# - rule: ask about nanotechnology center
-#   steps:
-#   - intent: nanotechnology_center
-#   - action: utter_nanotechnology_center
-
-# - rule: ask about toefl and ielts
-#   steps:
-#   - intent: toefl_and_ielts
-#   - action: utter_toefl_and_ielts
-
-# - rule: ask about freezing semester
-#   steps:
-#   - intent: freezing_semester
-#   - action: utter_freezing_semester
-
-# - rule: ask about official withdrawal from AUM
-#   steps: 
-#   - intent: official_withdrawal_from_AUM
-#   - action: utter_official_withdrawal_from_AUM
-
-# - rule: ask about cancelling the withdrawal request during the semester 
-#   steps:
-#   - intent: cancelling_the_withdrawal_request_during_the_semester 
-#   - action: utter_cancelling_the_withdrawal_request_during_the_semester 
-
-# - rule: ask about cheating
-#   steps:
-#   - intent: cheating
-#   - action: utter_cheating
-
-# - rule: ask about plagiarism
-#   steps:
-#   - intent: plagiarism
-#   - action: utter_plagiarism
-
-# - rule: ask about violation of dress code
-#   steps:
-#   - intent: violation_of_dress_code
-#   - action: utter_violation_of_dress_code
-
-# - rule: ask about no smoking policy
-#   steps:
-#   - intent: no_smoking_policy
-#   - action: utter_no_smoking_policy
-
-# - rule: ask about Hassan Kanj
-#   steps:
-#   - intent: instructor_Hassan_Kanj
-#   - action: utter_instructor_Hassan_Kanj
 
 
